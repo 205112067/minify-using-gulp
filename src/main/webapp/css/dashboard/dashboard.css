@@ -1,0 +1,4514 @@
+span.fusioncharts-container svg text {
+     font-size: 100% !important;
+ }
+@media screen, print {
+    /*--------------------------------------
+------ Hive - View Dashboard---------
+------------------------------------- */
+    .fg-toolbar {
+        border: 1px solid #AAA;
+        background: none repeat scroll 0 0 #335885;
+        color: #FFF;
+        font-weight: bold;
+    }
+    input.validate {
+        border: 1px solid red;
+    }
+    .itm-selected {
+        background: none repeat scroll 0 0 #708AAA;
+    }
+    .hive {
+        width: 1260px;
+    }
+    .hide{
+        display: none;
+    }
+    .Margin{
+        margin-top: 40px;
+    }
+    .activeDash {
+        font-size: 36px;
+        color: #666;
+        margin: 40px 0 0 40px;
+    }
+    .viewAnalyticsWall {
+        padding: 20px 30px;
+        margin-bottom: 220px;
+    }
+    .viewAnalyticsRow,
+    .viewAnalyticsRowB {
+        position: relative;
+        height: 390px;
+        width: 1190px;
+        margin: 0 5px 10px;
+    }
+    .viewAnalyticsRowB {
+        height: 800px;
+    }
+    .viewAnalyticsRowC {
+        position: relative;
+        overflow: auto;
+        width: 1190px;
+        margin: 0 5px 10px;
+    }
+    .viewAnalyticsRowFP {
+        position: relative;
+        width: 1193px;
+        margin: 0 5px 10px;
+        height: 660px;
+    }
+    .viewAnalyticsRowIndicator {
+        height: 190px;
+        margin: 0 5px 10px;
+        position: relative;
+        width: 1190px;
+    }
+    .vchart {
+        background: #FFF;
+    }
+    .brickChart,
+    .brickTable {
+        font-weight: 600;
+        font-family: "Segoe UI";
+        color: #555;
+        border-left: 1px #335885 solid;
+        border-right: 1px #335885 solid;
+    }
+    .brick1 {
+        height: 190px;
+        width: 190px;
+    }
+    .brick2 {
+        height: 190px;
+        width: 390px;
+    }
+    .brick3 {
+        height: 390px;
+        width: 190px;
+    }
+    .brick4,
+    .brick4 .relative {
+        height: 390px;
+        width: 590px;
+    }
+    .brick5,
+    .brick5 .relative {
+        height: 390px;
+        width: 790px;
+    }
+    .brick6,
+    .brick6 .relative {
+        height: 390px;
+        width: 1190px;
+    }
+    .brick7,
+    .brick7 .relative {
+        height: 390px;
+        width: 990px;
+    }
+    .brick8,
+    .brick8 .relative {
+        height: 800px;
+        width: 1190px;
+    }
+    .brick9 {
+        height: 390px;
+        width: 390px;
+    }
+    /*---------Positioning Starts---------------*/
+    /* ---- Layout 1 ---*/
+    .brickLayout1#type2 #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout1#type2 #b3 {
+        left: 400px;
+        top: 0;
+    }
+    .brickLayout1#type2 #b2 {
+        left: 0;
+        top: 200px;
+    }
+    .brickLayout1#type3 #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout1#type3 #b4 {
+        left: 400px;
+        top: 0;
+    }
+    .brickLayout1#type3 #b2 {
+        left: 0;
+        top: 200px;
+    }
+    .brickLayout1#type3 #b3 {
+        left: 200px;
+        top: 200px;
+    }
+    .brickLayout1#type4 #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout1#type4 #b2 {
+        left: 200px;
+        top: 0;
+    }
+    .brickLayout1#type4 #b5 {
+        left: 400px;
+        top: 0;
+    }
+    .brickLayout1#type4 #b3 {
+        left: 0;
+        top: 200px;
+    }
+    .brickLayout1#type4 #b4 {
+        left: 200px;
+        top: 200px;
+    }
+    /* ---- Layout 2 ---*/
+    .brickLayout2 #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout2 #b2 {
+        left: 600px;
+        top: 0;
+    }
+    /* ---- Layout 3 ---*/
+    .brickLayout3#type2 #b3 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout3#type2 #b1 {
+        left: 800px;
+        top: 0;
+    }
+    .brickLayout3#type2 #b2 {
+        left: 800px;
+        top: 200px;
+    }
+    .brickLayout3#type3 #b4 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout3#type3 #b1 {
+        left: 800px;
+        top: 0;
+    }
+    .brickLayout3#type3 #b2 {
+        left: 800px;
+        top: 200px;
+    }
+    .brickLayout3#type3 #b3 {
+        left: 1000px;
+        top: 200px;
+    }
+    .brickLayout3#type4 #b5 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout3#type4 #b1 {
+        left: 800px;
+        top: 0;
+    }
+    .brickLayout3#type4 #b2 {
+        left: 1000px;
+        top: 0;
+    }
+    .brickLayout3#type4 #b3 {
+        left: 800px;
+        top: 200px;
+    }
+    .brickLayout3#type4 #b4 {
+        left: 1000px;
+        top: 200px;
+    }
+    /* ---- Layout 4 ---*/
+    .brickLayout4#type2 #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout4#type2 #b2 {
+        left: 1000px;
+        top: 0;
+    }
+    .brickLayout4#type2 #b3 {
+        left: 200px;
+        top: 0;
+    }
+    .brickLayout4#type3a #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout4#type3a #b2 {
+        left: 1000px;
+        top: 0;
+    }
+    .brickLayout4#type3a #b3 {
+        left: 1000px;
+        top: 200px;
+    }
+    .brickLayout4#type3a #b4 {
+        left: 200px;
+        top: 0;
+    }
+    .brickLayout4#type3b #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout4#type3b #b2 {
+        left: 0;
+        top: 200px;
+    }
+    .brickLayout4#type3b #b3 {
+        left: 1000px;
+        top: 0;
+    }
+    .brickLayout4#type3b #b4 {
+        left: 200px;
+        top: 0;
+    }
+    .brickLayout4#type4 #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout4#type4 #b2 {
+        left: 0;
+        top: 200px;
+    }
+    .brickLayout4#type4 #b3 {
+        left: 1000px;
+        top: 0;
+    }
+    .brickLayout4#type4 #b4 {
+        left: 1000px;
+        top: 200px;
+    }
+    .brickLayout4#type4 #b5 {
+        left: 200px;
+        top: 0;
+    }
+    /* ---- Layout 5 ---*/
+    .brickLayout5#type1 #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout5#type1 #b2 {
+        left: 200px;
+        top: 0;
+    }
+    .brickLayout5#type2 #b1 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout5#type2 #b2 {
+        left: 0;
+        top: 200px;
+    }
+    .brickLayout5#type2 #b3 {
+        left: 200px;
+        top: 0;
+    }
+    /* ---- Layout 6 ---*/
+    .brickLayout6#type1 #b2 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout6#type1 #b1 {
+        left: 1000px;
+        top: 0;
+    }
+    .brickLayout6#type2 #b3 {
+        left: 0;
+        top: 0;
+    }
+    .brickLayout6#type2 #b1 {
+        left: 1000px;
+        top: 0;
+    }
+    .brickLayout6#type2 #b2 {
+        left: 1000px;
+        top: 200px;
+    }
+    /* ---- Layout 7/8---*/
+    .brickLayout7 #b1,
+    .brickLayout8 #b1 {
+        left: 0;
+        top: 0;
+    }
+    /*---Layout 9 -*/
+    .brickLayout9 .viewBrick {
+        float: left;
+        position: relative;
+        margin: 0 14px 10px 0;
+        height: 190px;
+    }
+    .brickLayout9 .brick4 {
+        width: 1190px;
+    }
+    .brickLayout9 .brick2 {
+        width: 588px;
+    }
+    .brickLayout9 .brick1 {
+        width: 287px;
+    }
+    /* ...layout 11... */
+    .brickLayout11 .viewBrick {
+        float: left;
+        height: 190px;
+        margin: 0 14px 10px 0;
+        position: relative;
+    }
+    .brickLayout11 .brick1 {
+        width: 286px;
+    }
+    .brickLayout11 .brick2 {
+        width: 587px;
+    }
+    .brickLayout11 .brick3 {
+        width: 386px;
+    }
+    .brickLayout11 .brick4 {
+        width: 1190px;
+    }
+    .brickLayout11 .brick5 {
+        width: 225px;
+    }
+    .brickLayout11 .brick6 {
+        width: 186px;
+    }
+    #type2.brickLayout11 .c2B {
+        margin-right: 0;
+    }
+    #type3.brickLayout11 .c3B {
+        margin-right: 0;
+    }
+    #type4.brickLayout11 .c4B {
+        margin-right: 0;
+    }
+    #type5.brickLayout11 .c5B {
+        margin-right: 0;
+    }
+    #type6.brickLayout11 .c6B {
+        margin-right: 0;
+    }
+    /*--------------- Positioning Ends-------------*/
+    .viewBrick {
+        margin: 0;
+        font-family: "Segoe UI";
+        font-weight: lighter;
+        color: #FFF;
+        position: absolute;
+        -webkit-box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        -moz-box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        -ms-box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+    }
+    .brickText {
+        position: absolute;
+        bottom: 0;
+        padding: 0 5px 5px;
+    }
+    .brick1 .bIndDate {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .brick1 .brickValues {
+        padding-top: 50px;
+        padding-right: 5px;
+        text-align: right;
+        font-size: 28px;
+        font-family: "Segoe UI";
+    }
+    .brick1 .brickText {
+        width: 180px;
+        font-size: 18px;
+    }
+    .brick1 .brickSymbol {
+        font-size: 28px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .brick2 .bIndDate {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .brick2 .brickValues {
+        padding-top: 72px;
+        padding-right: 5px;
+        text-align: right;
+        font-size: 32px;
+        font-family: "Segoe UI";
+    }
+    .brick2 .brickText {
+        width: 380px;
+        font-size: 22px;
+    }
+    .brick2 .brickSymbol {
+        font-size: 32px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .brick3 .bIndDate {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .brick3 .brickValues {
+        padding-top: 62px;
+        padding-right: 5px;
+        text-align: right;
+        font-size: 28px;
+        font-family: "Segoe UI";
+    }
+    .brick3 .brickText {
+        width: 180px;
+        font-size: 18px;
+    }
+    .brick3 .brickSymbol {
+        font-size: 28px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .brick4 .bIndDate {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .brick4 .brickValues {
+        padding-top: 72px;
+        padding-right: 5px;
+        text-align: right;
+        font-size: 32px;
+        font-family: "Segoe UI";
+    }
+    .brick4 .brickText {
+        width: 380px;
+        font-size: 22px;
+    }
+    .brick4 .brickSymbol {
+        font-size: 32px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .brick4 .bChartFooter {
+        width: 590px;
+    }
+    .brick5 .bChartFooter {
+        width: 790px;
+    }
+    .brick6 .bChartFooter {
+        width: 1190px;
+    }
+    .brick6 .brickValues {
+        padding-top: 72px;
+        padding-right: 5px;
+        text-align: right;
+        font-size: 32px;
+        font-family: "Segoe UI";
+    }
+    .brick7 .bChartFooter {
+        width: 990px;
+    }
+    .brick8 .bChartFooter {
+        width: 1190px;
+    }
+    .brick8 .brickTable {
+        height: 389px;
+    }
+    .brickValues:hover {
+        cursor: pointer;
+        -webkit-stroke-width: 5.3px;
+        -webkit-stroke-color: #FFFFFF;
+        -webkit-fill-color: #FFFFFF;
+        text-shadow: 1px 0px 20px yellow;
+        -webkit-transition: width 0.3s;
+        /*Safari & Chrome*/
+        font-size: 30px;
+        transition: width 0.3s;
+        -moz-transition: width 0.3s;
+        /* Firefox 4 */
+        -o-transition: width 0.3s;
+        /* Opera */
+    }
+    /*.brick4  .brickChart, .brick5  .brickChart, .brick6  .brickChart, .brick7  .brickChart,.brick8*/
+    .brickChart {
+        height: 310px;
+    }
+    .brick9 .bIndDate {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .brick9 .brickValues {
+        color: #FFFFFF;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        padding-right: 5px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .brick9 .brickText {
+        width: 380px;
+        font-size: 22px;
+    }
+    .brick9 .brickSymbol {
+        font-size: 32px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .allDashTigger {
+        cursor: pointer;
+    }
+    /* .dash-h-blk {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    margin: auto 0;
+    background: #E6E9EA url(/NanoClientApplication/images/dashboard/bg.gif) repeat left top fixed;
+} */
+    .dash-h-blk {
+        background: #f7f7f7;
+        height: 70px;
+        top: 64px;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+    }
+    .headerSub {
+        margin: auto;
+        height: 100%;
+        width: 1274px;
+        position: relative;
+    }
+    .dashStngs {
+        height: 32px;
+        padding: 10px 5px;
+        top: 15px;
+        right: 35px;
+    }
+    .dashStngs a {
+        width: 32px;
+        height: 32px;
+        display: block;
+        float: left;
+        margin-left: 5px;
+    }
+    .dashHeader {
+        height: 48px;
+        padding: 2px 0;
+        top: 0;
+        left: 65px;
+        min-width: 390px;
+    }
+    .dashHeader img {
+        display: block;
+        float: left;
+        padding: 13px 0 0 10px;
+    }
+    .dashHeader span {
+        font-size: 32px;
+        line-height: 62px;
+        display: block;
+        float: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 350px;
+    }
+    .viewDashImg {
+        text-align: right;
+        padding: 5px 5px 0 0;
+    }
+    .csvClick {
+        position: absolute;
+        background: url(/NanoClientApplication/images/dashboard/settings/csv.png) no-repeat;
+        width: 34px;
+        height: 31px;
+        display: inline;
+        z-index: 3200;
+        top: 62px;
+        right: 84px;
+        cursor: pointer;
+    }
+    .excelClick {
+        position: absolute;
+        background: url(/NanoClientApplication/images/dashboard/settings/excel_new.png) no-repeat;
+        width: 34px;
+        height: 31px;
+        display: inline;
+        z-index: 3200;
+        top: 62px;
+        right: 190px;
+        cursor: pointer;
+    }
+    .pdfClick {
+        position: absolute;
+        background: url(/NanoClientApplication/images/dashboard/download_pdf.png) no-repeat;
+        width: 34px;
+        height: 31px;
+        display: inline;
+        z-index: 3200;
+        top: 62px;
+        right: 135px;
+        cursor: pointer;
+    }
+    .vPrint {
+        background: url(/NanoClientApplication/images/dashboard/settings/print-b.png) no-repeat center;
+    }
+    .new-hive {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashboard.png) no-repeat center;
+    }
+    .vFilter {
+        background: url(/NanoClientApplication/images/dashboard/settings/filter.png) no-repeat center;
+    }
+    .gmapFilter {
+         background: url(/NanoClientApplication/images/dashboard/map-filter.png) no-repeat center;
+    }
+    .vLinkChartHiveOn {
+        background: url(/NanoClientApplication/images/dashboard/settings/linkFilterOn.png) no-repeat center;
+    }
+    .vLinkChartHiveOff {
+        background: url(/NanoClientApplication/images/dashboard/settings/linkFilterOff.png) no-repeat center;
+    }
+    .analycomt {
+        background: url(/NanoClientApplication/images/dashboard/vanalycomt.png) no-repeat center;
+    }
+    .vanalyComt {
+        background: url(/NanoClientApplication/images/dashboard/vanalycomt.png) no-repeat center;
+    }
+    .vUpdateicon {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashboard_edit_update.png) no-repeat center;
+    }
+    .vUpdateicondisable {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashboard_edit_update.png) no-repeat center;
+        opacity: 0.4;
+    }
+    .vPersonalization {
+        background: url(/NanoClientApplication/images/dashboard/dashboard_personal_black.png) no-repeat center;
+    }
+    .vDownloadReport {
+        background: url(/NanoClientApplication/images/dashboard/download_black.png) no-repeat center;
+    }
+    .bctPivot {
+        background: url(/NanoClientApplication/images/dashboard/dashborad_PowerPivot.png) no-repeat center;
+    }
+    .vSave {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashborad_save.png) no-repeat center;
+    }
+    .vSaveAs {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashborad_saveas.png) no-repeat center;
+    }
+    .vSaveAsdisable {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashborad_saveas.png) no-repeat center;
+        opacity: 0.4;
+    }
+    .vShare {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashboard_share.png) no-repeat center;
+    }
+    .vDashboardInfo {
+        background: url(/NanoClientApplication/images/dashboard/dashboard_info.png) no-repeat center;
+    }
+    .vCopy {
+        background: url(/NanoClientApplication/images/dashboard/settings/copy.png) no-repeat center;
+    }
+    .vEmbed {
+        background: url(/NanoClientApplication/images/dashboard/settings/embed.png) no-repeat center;
+    }
+    .vEmbeddisable {
+        background: url(/NanoClientApplication/images/dashboard/settings/embed.png) no-repeat center;
+        opacity: 0.4;
+    }
+    .vminiappdash {
+        background: url(/NanoClientApplication/images/dashboard/settings/mini_app_designer_icon.png) no-repeat center;
+    }
+    .viewAllDash .brickText {
+        font-size: 40px;
+    }
+    .allDashBox {
+        display: none;
+        min-height: 390px;
+        max-height: 390px;
+        position: absolute;
+        left: 35px;
+        top: 72px;
+        width: 390px;
+        z-index: 500;
+        cursor: default;
+        background-color: rgba(50, 50, 50, 0.9);
+    }
+    .allDashBox .dbListFilter {
+        background: none;
+        color: #FFF;
+        border: none;
+        padding: 2px;
+        width: 98%
+    }
+    .closeDashBox {
+        height: 50px;
+        width: 380px;
+    }
+    .closeDashBox img {
+        padding: 2px 2px 0 0;
+        position: relative;
+        right: -347px;
+        top: -44px;
+    }
+    .allDashBox ul {
+        display: block;
+        padding: 10px;
+        overflow: auto;
+        max-height: 300px;
+    }
+    .allDashBox ul li {
+        font-size: 22px;
+        line-height: 35px;
+        padding-left: 5px;
+        cursor: pointer;
+        transition: font-size 0.25s;
+        -moz-transition: font-size 0.25s;
+        -webkit-transition: font-size 0.25s;
+        -o-transition: font-size 0.25s;
+        color: #fff;
+    }
+    .allDashBox ul li:hover {
+        font-size: 25px;
+        color: #fff;
+        text-shadow: 1px 1px 1px #333;
+        font-family: "Segoe UI";
+        overflow: hidden;
+    }
+    .allDashBox ul li img {
+        height: 22px;
+        width: 22px;
+    }
+    .allDashBox ul li span {
+        line-height: 198%;
+        padding: 8px;
+    }
+    /*.allDashBox ul li img:hover {height: 35px; width: 35px;}*/
+    /*.allDashBox ul li{position: relative; right: -18px;}*/
+    /* .allDashBox ul li image:hover{-moz-transform:scale(2); -webkit-transform:scale(2);-o-transform:scale(2); } */
+    .allDasTag {
+        background: none;
+        color: #FFF;
+        border: none;
+        padding: 2px;
+        width: 98%;
+        display: none;
+        min-height: 390px;
+        max-height: 390px;
+        position: absolute;
+        left: 35px;
+        top: 72px;
+        width: 390px;
+        z-index: 500;
+        cursor: default;
+        background-color: rgba(50, 50, 50, 0.9);
+    }
+    .bChartHeader {
+        height: 40px;
+        position: relative;
+    }
+    .bHiveRefresh {
+        padding: 5px 2px;
+        cursor: pointer;
+        float: left;
+        height: 30px;
+        width: 30px;
+        background: url(/NanoClientApplication/images/dashboard/dashboard_refresh.png) no-repeat center;
+    }
+    .bChartName {
+        font-family: "Segoe UI";
+        font-size: 20px;
+        max-width: 300px;
+        overflow: hidden;
+        padding: 4px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bChartDate {
+        font-size: 14px;
+        padding: 22px 5px 0 0;
+    }
+    .bChartFooter {
+        height: 36px;
+        position: absolute;
+        bottom: 0; 
+        z-index: 3; 
+        
+        -webkit-animation: fadeIn 1s;
+    }
+    .viewBrick:hover .bChartStngs {
+        display: block;
+    }
+    .bChartType {
+        height: 32px;
+        padding: 4px 5px;
+        width: 66px;
+        float: left;
+    }
+    .bChartStngs {
+        height: 32px;
+        padding: 4px 5px;
+        float: right;
+    }
+    a.bctRelated {
+        background: url(/NanoClientApplication/images/dashboard/relatedB-W.png) no-repeat center;
+        width: 28px;
+        height: 32px;
+        float: left;
+        margin-left: 5px;
+    }
+    a.bctCurated {
+        background: url(/NanoClientApplication/images/dashboard/curatedB-W.png) no-repeat center;
+        width: 28px;
+        height: 32px;
+        float: left;
+        margin-left: 5px;
+    }
+    #i-l-categry {
+        border-radius: 11px;
+        background-color: #7499C6;
+        border-top: 48px none;
+        color: white;
+        display: none;
+        height: 70px;
+        margin: -72px 166px 56px 45px;
+        position: fixed;
+        width: 316px;
+        z-index: 1000;
+    }
+    .li-s-cs {
+        width: 314px;
+        list-style-type: none;
+        margin-left: 20px;
+        text-align: justify;
+        width: 314px;
+    }
+    .bChartStngs a {
+        display: block;
+        float: left;
+        height: 32px;
+        margin-left: 4px;
+        position: relative;
+        width: 32px;
+    }
+    a.anaStatsInfo {
+        background: url(/NanoClientApplication/images/dashboard/dashboard_linkchart.png) no-repeat center;
+    }
+    a.analycomt {
+        background: url(/NanoClientApplication/images/dashboard/dashborad_chat.png) no-repeat center;
+    }
+    a.alertInfo {
+        background: url(/NanoClientApplication/images/dashboard/dashboard_alert.png) no-repeat center;
+    }
+    a.analyticInfo {
+        background: url(/NanoClientApplication/images/dashboard/info.png) no-repeat center;
+    }
+    a.editAnalytic {
+        background: url(/NanoClientApplication/images/dashboard/edit_analytic.png) no-repeat center;
+    }
+    a.bctFilter {
+        background: url(/NanoClientApplication/images/dashboard/filter.png) no-repeat center;
+    }
+    a.bctexptnformat {
+        background: url(/NanoClientApplication/images/dashboard/dashboard_exptn_fmatg.png) no-repeat center;
+    }
+    a.bctpersonalization {
+        background: url(/NanoClientApplication/images/dashboard/dashboard_personal.png) no-repeat center;
+    }
+    a.bctChartType {
+        background: url(/NanoClientApplication/images/dashboard/chartType.png) no-repeat center;
+    }
+    a.bctLike {
+        background: url(/NanoClientApplication/images/dashboard/like.png) no-repeat center;
+        display: none;
+    }
+    a.bctEmbed {
+        background: url(/NanoClientApplication/images/dashboard/embed.png) no-repeat center;
+    }
+    a.bctDownload {
+        background: url(/NanoClientApplication/images/dashboard/download.png) no-repeat center;
+    }
+    a.bctPrint {
+        background: url(/NanoClientApplication/images/dashboard/print.png) no-repeat center;
+    }
+    a.bctFull {
+        background: url(/NanoClientApplication/images/dashboard/zoom.png) no-repeat center;
+    }
+    a.bctOlap {
+        background: url(/NanoClientApplication/images/dashboard/olaps.png) no-repeat center;
+    }
+    a.bctOlapExpnd {
+        background: url(/NanoClientApplication/images/dashboard/olap.png) no-repeat center;
+    }
+    a.btnShowhideValue {
+        background: url(/NanoClientApplication/images/dashboard/chartproperties.png) no-repeat center;
+    }
+    a.ChangeAxis {
+        background: url(/NanoClientApplication/images/dashboard/change-axis.png) no-repeat center;
+    }
+    a.Calendar {
+        background: url(/NanoClientApplication/images/dashboard/dashboard_calendar.png) no-repeat scroll center center transparent;
+        display: none;
+    }
+    a.Calendar_exit {
+        background: url(/NanoClientApplication/images/dashboard/dashboard_calendar_close.png) no-repeat scroll center center transparent;
+        display: none;
+    }
+    .drillDownload {
+        background: url("/NanoClientApplication/images/dashboard/download.png") no-repeat scroll center center #335885;
+        cursor: pointer;
+        display: inline;
+        float: left;
+        height: 28px;
+        margin-top: -10px;
+        padding: 5px;
+        text-align: center;
+        width: 28px;
+        z-index: 1;
+    }
+    .bctFilterDrill {
+        background: url(/NanoClientApplication/images/dashboard/filter.png) no-repeat scroll center center #335885;
+        position: relative;
+        cursor: pointer;
+        display: inline;
+        float: left;
+        height: 28px;
+        top: -10px;
+        padding: 5px;
+        text-align: center;
+        width: 28px;
+        z-index: 1;
+    }
+    .vIndicator a.bctEmbed {
+        height: 32px;
+        width: 32px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        display: none;
+    }
+    .vIndicator a.bctFilter {
+        height: 32px;
+        width: 32px;
+        position: absolute;
+        right: 40px;
+        top: 5px;
+        display: none;
+    }
+    .vIndicator a.alertInfo {
+        display: none;
+        height: 32px;
+        position: absolute;
+        right: 75px;
+        top: 5px;
+        width: 32px;
+    }
+    .vIndicator a.analyticInfo {
+        height: 32px;
+        width: 32px;
+        position: absolute;
+        right: 110px;
+        top: 5px;
+        display: none;
+    }
+    .vIndicator a.editAnalytic {
+        display: none;
+        height: 32px;
+        position: absolute;
+        right: 145px;
+        top: 5px;
+        width: 32px;
+    }
+    .vIndicator:hover a.indEvnt {
+        display: block;
+    }
+    /*Full screen Chart View */
+    .fullScrrenChart {
+        width: 100%;
+        height: 100%;
+        z-index: 99989;
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+    .f-c-s-wrap {
+        height: 100%;
+    }
+    .close-f-s-c {
+        right: 15px;
+        top: 10px;
+        display: block;
+        height: 48px;
+        width: 48px;
+        background: url(/NanoClientApplication/images/dashboard/closeButton1.png) no-repeat center;
+    }
+    .f-s-c-header h3 {
+        text-align: center;
+        font-size: 26px;
+        color: #FFF;
+        font-family: "Segoe UI";
+        height: 15%;
+        line-height: 250%;
+        font-weight: lighter;
+    }
+    .f-s-c-footer {
+        width: 80%;
+        position: absolute;
+        bottom: 2%;
+        left: 10%;
+        display: none;
+    }
+    .f-s-c-footer .bChartType {
+        height: 64px;
+    }
+    .f-s-c-footer a.bctRelated {
+        background: url(/NanoClientApplication/images/dashboard/relatedButton-White.png) no-repeat center;
+        width: 48px;
+        height: 48px;
+    }
+    .f-s-c-footer a.bctCurated {
+        background: url(/NanoClientApplication/images/dashboard/curatedButton-White.png) no-repeat center;
+        width: 48px;
+        height: 48px;
+    }
+    /*--------------------------------------
+------ Hive - Create Dashboard---------
+------------------------------------- */
+    .cDashHeader {
+        overflow: hidden;
+        position: relative;
+        height: 80px;
+    }
+    .cDashName {
+        height: 32px;
+        margin: 19px 0 0 60px;
+        color: #000;
+        font-size: 42px;
+        display: block;
+        float: left;
+    }
+    .cDashStngs {
+        float: right;
+        height: 32px;
+        margin: 0;
+        padding: 8px 0;
+        margin: 20px 30px 0 0;
+    }
+    .cDashStngs a {
+        display: inline-block;
+        height: 32px;
+        width: 32px;
+    }
+    .cDashWall {
+        padding: 0 30px;
+        overflow: auto;
+        width: 1304px;
+    }
+    .cDashList {
+        overflow: hidden;
+        margin: 25px 0;
+    }
+    .cDashList ul li {
+        width: 1232px;
+        float: left;
+        margin: 0 0 10px 25px;
+        color: #FFF;
+        -webkit-box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        -moz-box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        -ms-box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+    }
+    .cDashList ul li:nth-child(4n),
+    .cDashList ul li:nth-child(4n+1) {
+        background-color: rgba(51, 88, 133, 1);
+    }
+    .cDashList ul li:nth-child(4n-1),
+    .cDashList ul li:nth-child(4n-2) {
+        background-color: rgba(51, 88, 133, 0.8);
+    }
+    .cDashList ul li .input-control.checkbox .helper {
+        padding: 0px 0px 0px 40px;
+        font-size: 19px;
+        font-family: 'Segoe UI';
+        font-weight: lighter;
+    }
+    /*dashboard list */
+    .dashborad_name {
+        float: left;
+        line-height: 1;
+        width: 380px !important;
+        word-wrap: break-word !important;
+        margin: auto 0px;
+    }
+    .c-d-l-actns a {
+        display: inline-block;
+        height: 32px;
+        width: 32px;
+        opacity: 0.6;
+    }
+    .c-d-l-actns a:hover {
+        opacity: 1;
+    }
+    .c-d-l-edit {
+        background: url(/NanoClientApplication/images/dashboard/update.png) no-repeat center;
+    }
+    .c-d-l-editicon {
+        background: url(/NanoClientApplication/images/dashboard/settings/list_edit_update.png) no-repeat center;
+    }
+    .c-d-l-prvw {
+        background: url(/NanoClientApplication/images/dashboard/Preview.png) no-repeat center;
+    }
+    .c-d-l-del {
+        background: url(/NanoClientApplication/images/dashboard/closeButton.png) no-repeat center;
+    }
+    .clist {
+        background: url(/NanoClientApplication/images/dashboard/settings/nd_list.png) no-repeat center;
+    }
+    .clistdisable {
+        background: url(/NanoClientApplication/images/dashboard/settings/nd_list.png) no-repeat center;
+        opacity: 0.4;
+    }
+    .cNew {
+        background: url(/NanoClientApplication/images/dashboard/settings/create_bigger.png) no-repeat center;
+    }
+    .cNewdisable {
+        background: url(/NanoClientApplication/images/dashboard/settings/create.png) no-repeat center;
+        opacity: 0.4;
+    }
+    .cDelete {
+        background: url(/NanoClientApplication/images/dashboard/settings/delete.png) no-repeat center;
+    }
+    .cDownloadReport {
+        background: url(/NanoClientApplication/images/download_black.png) no-repeat center;
+    }
+    .cChangeDash {
+        background: url(/NanoClientApplication/images/dashboard/settings/change.png) no-repeat center;
+    }
+    .hiveIcon {
+        background: url(/NanoClientApplication/images/dashboard/settings/change.png) no-repeat center;
+    }
+    .cSave {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashborad_save.png) no-repeat center;
+    }
+    .cSaveHiveListing {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashborad_save.png) no-repeat center;
+    }
+    .cSaveAs {
+        background: url(/NanoClientApplication/images/dashboard/settings/dashborad_saveas.png) no-repeat center;
+    }
+    .c-d-a-list {
+        width: 300px;
+        float: left;
+    }
+    .accordion > li {
+        width: 300px;
+    }
+    .fixedTop {
+        position: fixed;
+        top: 165px;
+    }
+    .calendarBack {
+        height: 24px;
+        left: 5px;
+        position: absolute;
+        top: 43px;
+        width: 24px;
+        display: none;
+    }
+    .c-d-a-dsgnr {
+        float: left;
+        width: 880px;
+        margin: 0 0 15px 20px;
+    }
+    .c-d-a-list h3,
+    .c-d-a-dsgnr h3 {
+        font-family: 'Segoe UI';
+        font-weight: lighter;
+        color: #000;
+        font-size: 22px;
+        letter-spacing: 0.01em;
+        line-height: 32pt;
+        color: black;
+        margin-top: 10px;
+    }
+    .c-d-l-actns {
+        display: none;
+        float: right;
+        position: relative;
+    }
+    .cDashList ul li:hover .c-d-l-actns {
+        display: block;
+    }
+    .c-d-a-l-bx ul {
+        overflow: auto;
+    }
+    .c-d-a-l-bx ul li {
+        color: #555;
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        padding: 10px;
+        cursor: move;
+    }
+    .ui-draggable-dragging {
+        list-style-type: none;
+        min-width: 150px;
+        background: #eee;
+        color: #000;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 5px;
+        ;
+        border: #000 1px solid;
+    }
+    .c-d-a-l-bx ul li:hover {
+        background-color: rgba(200, 200, 200, 0.7);
+    }
+    .c-d-a-l-cnt {
+        background: none repeat scroll 0 0 rgba(51, 88, 133, 0.9);
+        box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        color: #FFFFFF !important;
+        font-size: 20px;
+        height: 26px;
+        margin-top: -10px;
+        padding: 5px 5px 5px 26px;
+        width: 270px;
+    }
+    .dash-dsgnr {
+        border: 1px #000 solid;
+        padding: 0 10px 0 20px;
+        overflow: auto;
+    }
+    .d-d-itm {
+        width: 800px;
+        height: 200px;
+        background-color: rgba(125, 125, 125, 0.3);
+        margin: 20px 0;
+    }
+    .d-d-itm-sptr {
+        border-top: 1px rgba(25, 25, 25, 0.8) dashed;
+        font-size: 11px;
+        margin: 20px 0;
+        width: 800px;
+    }
+    .d-d-itm-add {
+        display: block;
+        height: 24px;
+        width: 24px;
+        background: url(/NanoClientApplication/images/dashboard/plus-black.png) no-repeat center;
+        top: -13px;
+        right: -19px;
+        cursor: pointer;
+    }
+    .d-d-itm-del {
+        display: block;
+        height: 24px;
+        width: 24px;
+        background: url(/NanoClientApplication/images/dashboard/close-black.png) no-repeat center;
+        top: 3px;
+        right: -33px;
+        cursor: pointer;
+    }
+    .d-d-select-layout {
+        overflow: auto;
+    }
+    .d-d-select-layout h3 {
+        font-size: 22px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .d-d-s-l-bx {
+        margin: 25px 14px;
+        text-align: center;
+    }
+    img.d-d-lyt {
+        padding: 0;
+        margin: 2px;
+        border: 1px rgba(102, 112, 77, 0.8) solid;
+        cursor: pointer;
+        height: 46px;
+    }
+    img.d-d-layout:hover {
+        background-color: #aab09a;
+        border-color: #596048;
+    }
+    img.d-d-layout:active {
+        border-color: #222619;
+    }
+    input.fltr-c-d-l {
+        width: 264px;
+        font-size: 13px;
+        padding: 3px 5px;
+        border: 2px #AAA solid;
+        margin: 10px 10px 5px;
+    }
+    input.fltr-c-d-l:focus {
+        border-color: #666;
+    }
+    .d-d-pre {
+        color: #FFF;
+        font-style: italic;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .d-d-drpd-itm {
+        clear: both;
+        float: left;
+        color: #FFF;
+        font-size: 15px;
+        line-height: 24px;
+        padding: 10px;
+    }
+    .d-d-d-i-cls {
+        display: block;
+        height: 18px;
+        width: 18px;
+        background: url(/NanoClientApplication/images/dashboard/close-w.png) no-repeat center;
+        top: 12px;
+        right: -12px;
+        cursor: pointer;
+    }
+    .d-span2h .d-d-pre {
+        padding-top: 40px;
+    }
+    .d-col {
+        float: left;
+        background-color: rgba(51, 88, 133, 0.9);
+        margin-left: 20px;
+        border: 2px rgba(51, 88, 133, 1) solid;
+        -webkit-box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        -moz-box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+        -ms-box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+    }
+    .d-span1 {
+        width: 111px;
+        height: 196px;
+    }
+    .d-span2 {
+        width: 246px;
+        height: 196px;
+    }
+    .d-span3 {
+        height: 196px;
+        width: 526px;
+    }
+    .d-span4 {
+        height: 196px;
+        width: 386px;
+    }
+    .d-span5 {
+        height: 196px;
+        width: 661px;
+    }
+    .d-span6 {
+        height: 196px;
+        width: 796px;
+    }
+    .d-col:first-child {
+        margin-left: 0;
+    }
+    .addedAnalytic {
+        word-break: break-all;
+        color: #FFF;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5px 2px;
+        margin-bottom: 1px;
+    }
+    .d-span3 .addedAnalytic,
+    .d-span4 .addedAnalytic,
+    .d-span5 .addedAnalytic,
+    .d-span6 .addedAnalytic {
+        word-break: break-all;
+        color: #FFF;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        height: 156px;
+    }
+    .analyticName {
+        font-size: 20px;
+        line-height: 23px;
+        overflow: hidden;
+        font-family: 'Segoe UI';
+        max-width: 300px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .d-span1 .analyticName {
+        max-height: 48px;
+    }
+    .d-span2 .analyticName {
+        max-height: 24px;
+    }
+    .analyticType {
+        font-size: 15px;
+        color: #CCC;
+    }
+    .removeAnalytic {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    #accessBoxWrapper {
+        width: 0;
+        height: 100%;
+        display: inline-block;
+        overflow-x: hidden;
+        overflow-y: visible;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    #accessBoxWrapper .tabs {
+        display: none;
+    }
+    #accessBoxWrapper .tabs.active {
+        display: block;
+    }
+    /*Hive create Dashboard new css */
+    .sl7 .addedAnalytic[analytictype="indicator"] {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #FFFFFF;
+        float: left;
+        height: 35px;
+        margin: 5px 6px 10px;
+        padding: 8px;
+        width: 235px;
+    }
+    .sl7 .addedAnalytic[analytictype="indicator"] .analyticName {
+        font-size: 20px;
+        line-height: 23px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .sl11 .addedAnalytic[analytictype="indicator"] {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        float: left;
+        height: 170px;
+        margin: 5px 6px 10px;
+        padding: 8px;
+        width: 104px;
+    }
+    .sl11 .addedAnalytic[analytictype="indicator"] .analyticName {
+        font-size: 20px;
+        line-height: 23px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bIndDate {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+    }
+    .bChartDate {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 175px;
+        padding: 8px;
+    }
+    .baseValue {
+        height: 24px;
+        left: 5px;
+        position: absolute;
+        top: 43px;
+        width: 24px;
+        display: none;
+        z-index: 90000;
+    }
+    .ui-tabs {
+        position: relative;
+        /* padding: .2em; */
+        padding-top: 2px;
+        !important zoom: 1;
+    }
+    .bChartStngs a.ChangeAxis {
+        display: none;
+    }
+    /*New CSS*/
+    .pivotChart {
+        clear: both;
+    }
+    .stripHeader {
+        background: #335885;
+        margin-top: 10px;
+        padding: 3px;
+        text-align: center;
+        color: #FFF;
+    }
+    h3.dimFilter,
+    h3.dateFilter,
+    h3.calFilter {
+        font-size: 16px;
+    }
+    .filterInputBox {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #666;
+    }
+    #filterContent ul.dimensionMemberList {
+        padding: 20px;
+        padding-left: 0px;
+    }
+    #dateFilterWrapper {
+        font-size: 12px;
+    }
+    .dimensionMemberList li {
+        margin-left: 20px;
+    }
+    .rangeSelectorButn,
+    .dateSelectorButn {
+        cursor: pointer;
+    }
+    #datepickerFrom,
+    #datepickerTo {
+        font-size: 14px;
+    }
+    .customizeDiv {
+        background: none repeat scroll 0 0 white;
+        border: 1px solid #666666;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        padding: 10px;
+        z-index: 1000;
+        position: fixed;
+        display: none;
+        overflow: auto;
+    }
+    .customizeDiv div {
+        padding: 3px;
+        width: 560px;
+    }
+    .privousValue {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    #alertpopupid {
+        width: 478px;
+        height: 190px;
+        display: none;
+        overflow: hidden;
+    }
+    .errorInfo {
+        width: 80px;
+        height: 80px;
+        -moz-border-radius: 40px;
+        -webkit-border-radius: 40px;
+        border-radius: 40px;
+        -khtml-border-radius: 40px;
+        -ms-border-radius: 40px;
+        border: 3px solid #900;
+        color: #900;
+        font-size: 64px;
+        line-height: 80px;
+        text-align: center;
+        text-shadow: #CCC;
+    }
+    .errorInfoSmall {
+        width: 40px;
+        height: 40px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        -khtml-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border: 2px solid #900;
+        color: #900;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: #CCC;
+    }
+    #analyticInfoWrap {
+        width: 500px;
+        height: 298px;
+        display: none;
+        overflow: auto;
+        background: #FFF;
+        padding: 10px;
+    }
+    #analyticInfoWrap .heading {
+        margin-top: 10px;
+        font-size: 18px;
+        background: #335885;
+        text-align: center;
+        color: #FFF;
+        line-height: 26px;
+        clear: both;
+    }
+    #analyticInfoWrap .heading {
+        margin-top: 10px;
+    }
+    #analyticInfoWrap .heading:first-child {
+        margin-top: 0;
+    }
+    #analyticInfoWrap .label {
+        float: left;
+        width: 130px;
+        padding: 5px;
+    }
+    #analyticInfoWrap .Description {
+        word-wrap: break-word;
+        float: left;
+        width: 310px;
+        padding: 5px;
+        white-space: pre-wrap;
+        overflow: auto;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+    }
+    #showDashboard,
+    #showEventDetail {
+        width: 500px;
+        height: 298px;
+        display: none;
+        overflow: auto;
+        background: #FFF;
+        padding: 10px;
+    }
+    #showDashboard .heading,
+    #showEventDetail .heading {
+        margin-top: 10px;
+        font-size: 18px;
+        background: #335885;
+        text-align: center;
+        color: #FFF;
+        line-height: 26px;
+        clear: both;
+    }
+    #showDashboard .heading,
+    #showEventDetail .heading {
+        margin-top: 10px;
+    }
+    #showDashboard .heading:first-child,
+    #showEventDetail .heading:first-child {
+        margin-top: 0;
+    }
+    #showDashboard .label,
+    #showEventDetail .label {
+        float: left;
+        width: 130px;
+        padding: 5px;
+    }
+    #showDashboard .Description,
+    #showEventDetail .Description {
+        word-wrap: break-word;
+        float: left;
+        width: 307px;
+        padding: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+    }
+    /*.forWidth{
+    width:436px;
+}
+.ellipsis {
+    word-wrap: break-word
+    float:left;
+    width:288px;
+    padding:5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    
+    
+}*/
+    .measureList,
+    .dimensionList,
+    .infoLevel {
+        padding-top: 5px;
+        overflow: auto;
+        border-bottom: 1px #999 solid;
+    }
+    .measureList:last-child,
+    .dimensionList:last-child,
+    .infoLevel:last-child {
+        border-bottom: none;
+    }
+    .drillMapImgchart{
+        height: 24px;
+        left: 3px;
+        position: absolute;
+        top: 3px;
+        width: 24px;
+        display: none;
+        z-index: 99;
+    }
+    .drillImgchart,
+    .ulBackButton {
+        height: 24px;
+        left: 3px;
+        position: absolute;
+        top: 3px;
+        width: 24px;
+        display: none;
+        z-index: 99;
+    }
+    #measureDimCont li {
+        list-style: none;
+    }
+    #numRows {
+        width: 50px;
+    }
+    .oldDashboardLink {
+        cursor: pointer;
+        display: inline-block;
+        margin-left: -400px;
+        margin-top: 8px;
+        position: absolute;
+    }
+    /*New CSS end */
+    /*modalBox - S.Yadav*/
+    .iw-modalOverlay {
+        background: #000;
+        opacity: .6;
+    }
+    .c-info {
+        overflow: auto;
+        height: 235px;
+        border: 1px #999999 solid;
+    }
+    .popUpBx#createDashboardPannel {
+        width: 650px;
+        height: auto !important;
+    }
+    .saveHivePn {
+        height: 340px;
+    }
+    #createDashboardPannel #createHive {
+        height: 465px;
+    }
+    #showDashboard {
+        width: 500px;
+        height: 298px;
+        display: none;
+        overflow: auto;
+        background: #FFF;
+        padding: 10px;
+    }
+    #showDashboard .heading {
+        margin-top: 10px;
+        font-size: 18px;
+        background: #335885;
+        text-align: center;
+        color: #FFF;
+        line-height: 26px;
+        clear: both;
+    }
+    #showDashboard .heading {
+        margin-top: 10px;
+    }
+    #showDashboard .heading:first-child {
+        margin-top: 0;
+    }
+    #showDashboard .label {
+        float: left;
+        width: 130px;
+        padding: 5px;
+    }
+    #showDashboard .Description {
+        word-wrap: break-word;
+        float: left;
+        width: 310px;
+        padding: 5px;
+        white-space: pre-wrap;
+        overflow: auto;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+    }
+    .frm-itm {
+        margin-bottom: 15px;
+        padding: 0 15px;
+    }
+    .frm-itm input[type="text"],
+    .frm-itm textarea {
+        border: 1px #BABABA solid;
+        width: 340px;
+        padding: 4px 5px;
+        background-color: #fff;
+        outline: 0;
+        min-height: 23px;
+        position: relative;
+        margin-left: 10px;
+        margin-top: 5px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .frm-lbl {
+        font-size: 17px;
+    }
+    .c-info-showDashboard {
+        border: 1px solid #999999;
+        height: 210px;
+        overflow: auto;
+    }
+    .frm-fld textarea {
+        border: 1px #BABABA solid;
+        width: 340px;
+        padding: 4px 5px;
+        background-color: #fff;
+        outline: 0;
+        min-height: 23px;
+        position: relative;
+        margin-left: 10px;
+        margin-top: 5px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    #createDashboardPannel textarea {
+        height: 60px;
+    }
+    .customizeDiv .label {
+        width: 200px;
+        float: left;
+    }
+    .customizeDiv .inputs {
+        width: 300px;
+        float: left;
+    }
+    .Embed_tiltle {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .copy {
+        margin-left: 15px;
+    }
+    /*share db  css*/
+    div.content_tab {
+        display: none;
+    }
+    div.content_tab input[type="text"] {
+        border: 1px #BABABA solid;
+        width: 460px;
+        padding: 4px 5px;
+        background-color: #fff;
+        outline: 0;
+        min-height: 23px;
+        position: relative;
+        margin-left: 10px;
+        margin-top: 5px;
+        background: url('/NanoClientApplication/images/dashboard/search.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    #shareDbWrap {
+        margin: 0 auto;
+        width: 502px;
+        display: none;
+        background: #FFF;
+        height: 283px;
+    }
+    #shareDbWrap .frm-itm {
+        margin-top: 24px;
+    }
+    #menu {
+        clear: both;
+        width: 661px;
+        overflow: auto;
+    }
+    #accSelectWrap {
+        clear: both;
+        display: none;
+    }
+    #ul_tabs {
+        clear: both;
+        padding: 0px;
+        margin: 0px;
+    }
+    .sharedWith {
+        background-color: #FFFFFF;
+        float: left;
+        height: 140px;
+        list-style: none outside none;
+        margin: 0 10px;
+        padding: 10px 5px;
+        text-align: center;
+        width: 135px;
+    }
+    .sharedWith.current {
+        background-color: #C0C0C0;
+    }
+    li.sharedWith:hover {
+        cursor: pointer;
+    }
+    .hive_share_popup_heading {
+        width: 100%;
+        line-height: 35px;
+        background-color: #284567!important;
+        background: url('/NanoClientApplication/images/dashboard/hive_share.png');
+        background-repeat: no-repeat;
+        background-position: 4px 4px!important;
+        font-size: 12px;
+        color: #fff;
+    }
+    .hive_share_popup_heading h2 {
+        line-height: 35px;
+        margin: 0px 0px 0px 40px;
+        padding: 0px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .shareWithList {
+        height: 134px;
+        margin: 15px 0;
+        overflow-y: auto;
+        padding: 9px;
+        width: 480px;
+    }
+    .accessee {
+        background-color: rgba(175, 175, 175, 0.7);
+        box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.7);
+        cursor: pointer;
+        display: inline-block;
+        float: left;
+        height: 24px;
+        list-style: none outside none;
+        margin: 6px 0 0 10px;
+        padding: 10px;
+        position: relative;
+        width: 195px;
+        z-index: 50;
+    }
+    #userNav {
+        float: left;
+        top: 280px;
+    }
+    .shareFont {
+        display: inline-block;
+        font-size: 13px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 182px;
+        word-wrap: break-word;
+    }
+    .accessee .tick {
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 24px;
+        height: 24px;
+    }
+    .accessee.selected .tick {
+        display: block;
+    }
+    /*share db css end*/
+    /*curated and related*/
+    ul.alt_content li:hover div#i-l-categry {
+        display: block;
+    }
+    #cht-nm-cr {
+        background-color: #335885;
+        text-align: center;
+        height: 28px;
+        color: white;
+        font-family: 'Segoe UI';
+    }
+    #highcharts-111 {
+        height: 142px;
+    }
+    #panel-wrapper-curates-related {
+        bottom: -47px;
+        display: none;
+        height: 270px;
+        overflow: auto;
+        position: fixed;
+        width: 1225px;
+        z-index: 1000;
+    }
+    #curatedPanel {
+        width: 1200px;
+        height: 85%;
+        position: absolute;
+        background-color: #EBEBEB;
+        border-right: 1px solid #335885;
+        border-left: 1px solid #335885;
+        border-top: 1px solid #335885;
+        border-bottom: 1px solid #335885;
+        z-index: 1000;
+        margin-left: 37px;
+        left: -2px;
+        overflow: hidden;
+    }
+    /* .curatedPanelClose {cursor: pointer; position:absolute; right:10px; top:10px; z-index: 1000;} */
+    img.leftArrow {
+        width: 37px;
+        height: 67px;
+        top: 62px;
+        z-index: 9999;
+        left: 30px;
+        position: absolute;
+        float: right;
+    }
+    img.rightArrow {
+        width: 37px;
+        height: 67px;
+        top: 62px;
+        z-index: 9999;
+        right: 0;
+        left: 1196px;
+        position: absolute;
+        float: right;
+    }
+    img.curatedPanelClose {
+        width: 30px;
+        top: -1px;
+        z-index: 9999;
+        right: 0;
+        left: 1199px;
+        position: absolute;
+        float: right;
+    }
+    div.ui-draggable-dragging {
+        padding: none;
+        z-index: 101
+    }
+    .curated-fltr {
+        float: left;
+        width: 100%;
+        height: 32px;
+        background: #335885;
+        margin-top: -9px;
+    }
+    .curated-fltr a {
+        background: url("/NanoClientApplication/images/dashboard/filter.png") no-repeat scroll center center transparent;
+        height: 32px;
+        width: 32px;
+        margin-right: 280px;
+        float: right;
+    }
+    .filter-main {
+        width: 314px;
+        height: 180px;
+        margin: 0;
+        right: 40px;
+        bottom: 0;
+        top: 0;
+        position: absolute;
+        ;
+        background: #000;
+        color: #FFF;
+    }
+    .txt-fltr input {
+        bottom: 0;
+        left: 35px;
+        width: 250px;
+    }
+    .txt-fltr {
+        margin-top: 0px;
+    }
+    .fltr-by-cat {
+        cursor: pointer;
+        overflow: hidden;
+        height: 100%;
+    }
+    .fltr-by-cat .expandContract {
+        font-size: 18px;
+    }
+    .fltr-by-cat li {
+        left: 36px;
+        position: relative;
+        padding-top: 10px;
+        list-style: none;
+        line-height: 14px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    #chart-filters h1 {
+        left: 32px;
+        position: relative;
+        top: 12px;
+        font-size: 20px;
+    }
+    .main {
+        width: 280px;
+        height: 170px;
+        border-right: 1px solid #335885;
+        border-left: 1px solid #335885;
+        display: inline-block;
+        float: left;
+        margin: 10px 0px 10px 10px;
+    }
+    /*#curated-related-fltr{display: inline-block;height: 100%;overflow-x: hidden;overflow-y: visible;position: absolute;right: 0;top: 0;width: 0;}*/
+    #suggested-app {
+        float: left;
+        height: auto;
+        margin-left: 2px;
+    }
+    .app-size {
+        float: left;
+        height: 116px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-left: 2px;
+        width: 170px;
+        background-color: rgba(0, 0, 0, 0.60);
+        cursor: pointer;
+    }
+    .apps-detls-desc {
+        color: #F2F2F2;
+        text-shadow: 0 1px rgba(255, 255, 255, 0.60);
+        font-size: 16px;
+        width: 100%;
+        float: left;
+        margin-bottom: 8px;
+        line-height: 22px;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+    .apps-box-a {
+        width: 70px;
+        float: left;
+        margin-left: 50px;
+    }
+    .popUp-mainhd {
+        background: none repeat scroll 0 0 #335885;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: 700;
+        height: 40px;
+        padding: 8px 8px 0;
+    }
+    .subs-ld-popUp {
+        border: 2px solid #000000;
+        width: 1024px;
+    }
+    #arty-fact-funfea {
+        margin-top: 105px;
+    }
+    .afts-nms {
+        margin-top: 10px;
+    }
+    .app-bndle-cont-lft {
+        float: left;
+        min-height: auto;
+        min-width: 190px;
+        overflow: hidden;
+        width: 220px;
+        color: #444;
+        margin-top: 135px;
+    }
+    .bndle-dtls-nms li {
+        border-bottom: 1px solid #CCC;
+        color: #999999;
+        font-size: 14px;
+        height: 22px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .bndle-cont-rt {
+        border: 1px solid #CCC;
+        float: left;
+        margin-top: 30px;
+        min-height: auto;
+        overflow: hidden;
+    }
+    .bndle-colnm {
+        background: #F7F7F7;
+        float: left;
+        margin: 0 2px;
+        overflow: hidden;
+        width: 190px;
+    }
+    .afts-nms li {
+        border-bottom: 1px solid #CCC;
+        height: 22px;
+        line-height: 10px;
+        overflow: hidden;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .bndle-dtls {
+        float: left;
+        width: 100%;
+    }
+    .mnth-prc {
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 32px;
+        height: 31px;
+    }
+    .empty-dtls-bndle {
+        border-bottom: 0 none !important;
+        height: 42px !important;
+    }
+    .bndle-dtls-nms {
+        padding-top: 0px;
+    }
+    .cur-sym-mn {
+        font-size: 12px;
+    }
+    sup {
+        top: -0.5em;
+    }
+    sub,
+    sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+        font-weight: bold;
+    }
+    .prc-mn {
+        color: #66CC33;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .prc-prd-mn,
+    .cur-sym {
+        font-size: 12px;
+    }
+    .signup-prc {
+        width: 100%;
+    }
+    .cur-syn {
+        color: #000;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .sign-up-fee {
+        color: #66CC33;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .bndle-img {
+        float: left;
+        height: 50px;
+        width: 50px;
+    }
+    .bndle-img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .aft-hd {
+        color: #000;
+        font-size: 22px;
+        font-weight: 500;
+        height: 20px;
+        margin-top: 12px;
+    }
+    .btn-empty {
+        float: left;
+        padding-top: 4px;
+        height: 44px;
+        line-height: 38px;
+        text-align: center;
+        width: 100%;
+    }
+    .bndle-nm {
+        float: left;
+        font-size: 24px;
+        height: 51px;
+        overflow: hidden;
+        padding-left: 5px;
+        width: 100%;
+    }
+    .free-trial {
+        color: #444;
+        font-size: 18px;
+        margin-left: 50px;
+        margin-top: 4px;
+        position: absolute;
+    }
+    .sign-prc {}
+    .app-like {
+        min-width: 208px!important;
+        background: none repeat scroll 0 0 #335885!important;
+    }
+    /* Bundle Summary */
+    .sumry-cont {
+        overflow: hidden;
+        float: left;
+        padding: 20px;
+    }
+    .sumry-typ,
+    .sumry-prc {
+        overflow: hidden;
+        float: left;
+        text-align: left;
+        font-size: 15px;
+    }
+    .sumry-hd {
+        color: #444;
+        font-size: 20px;
+        font-weight: 500;
+        height: 19px;
+        padding: 20px 10px;
+        border-bottom: 1px solid #444;
+    }
+    .sumry-hd li {
+        display: inline-block;
+    }
+    .sumry-hd-anal-app {
+        width: 300px;
+    }
+    .sumry-hd-pln {
+        width: 165px;
+    }
+    .sumry-hd-selc {
+        width: 170px;
+    }
+    .sumry-hd-unt {
+        width: 160px;
+    }
+    .sumry-hd-prc {
+        width: 80px;
+        text-align: right;
+        color: #444;
+    }
+    .sumry-catgry {
+        color: #444;
+        padding: 10px 10px;
+        height: 25px;
+    }
+    #bdl-pln-sl {
+        border: 2px solid #999999;
+        padding: 2px;
+    }
+    #base-bdl .sumry-hd-unt {
+        display: inline-block;
+        padding-left: 10px;
+        color: #C0B0B0;
+    }
+    .sumry-catgry li {
+        display: inline-block;
+        padding-left: 2px;
+    }
+    #base-prc {
+        margin-left: 5px;
+    }
+    .sumry-signup {
+        color: #555;
+        padding: 10px 10px;
+        height: 25px;
+    }
+    .sumry-signup li {
+        display: inline-block;
+        padding-left: 5px;
+    }
+    .sumry-sub-tot {
+        border-top: 1px solid #444;
+        font-weight: bold;
+        color: #444;
+    }
+    .sumry-serv-tax {
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    .sumry-total {
+        font-weight: bold;
+        border-top: 1px solid #444;
+        padding-top: 10px;
+    }
+    .sumry-catgry-btn {
+        color: #555;
+        padding: 10px 10px;
+        height: 40px;
+    }
+    .sumry-catgry-btn li {
+        display: inline-block;
+        padding-left: 2px;
+        width: 178px;
+    }
+    .sumry-btn {
+        background: url("/NanoClientApplication/The App Store/images/Bubble.png");
+        border: 0 none;
+        color: #FFF;
+        cursor: pointer;
+        font-size: 22px;
+        margin-top: 0px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #924BDC;
+        width: 150px;
+        height: 40px;
+    }
+    .confirm {
+        background-color: rgba(186, 186, 186, 0.32);
+        border: 8px solid rgba(255, 255, 255, 0.2);
+        color: #444444;
+        margin: 70px auto 0;
+        overflow: hidden;
+        width: 650px;
+    }
+    .confirm .yr-actv {
+        background-color: rgba(0, 0, 0, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-top: 10px;
+        width: 100%;
+    }
+    .yr-actv {
+        color: #444;
+        font-size: 36px;
+    }
+    .confirm p {
+        padding-bottom: 20px;
+        padding-left: 25px;
+        padding-top: 20px;
+    }
+    /*End Bundle Summary */
+    /*embedding container*/
+    #embedContainer {
+        width: 450px;
+        display: none;
+        overflow: hidden;
+    }
+    .qck-acs-bx {
+        overflow-x: hidden;
+    }
+    #userNav {
+        float: left;
+        top: 280px;
+    }
+    .alt_page_navigation {
+        float: left;
+    }
+    .ellipse {
+        display: none!important;
+    }
+    .nv-rt {
+        width: 46px;
+        opacity: 0.16;
+        height: 60px;
+        top: 62px;
+        z-index: 9999;
+        right: 12px;
+        position: absolute;
+        float: right;
+        background: url("/NanoClientApplication/images/crright.png");
+    }
+    .nv-lft {
+        width: 40px;
+        opacity: 0.16;
+        height: 60px;
+        top: 62px;
+        z-index: 9999;
+        left: -16px;
+        position: absolute;
+        float: left;
+        background: url("/NanoClientApplication/images/crleft.png");
+    }
+    .nv-rt:hover {
+        opacity: 0.59;
+    }
+    .nv-lft:hover {
+        opacity: 0.59;
+    }
+    /*Dashboard list*/
+    .dashboard_name {
+        width: 200px;
+        padding-left: 30px;
+        line-height: 1;
+        word-wrap: break-word;
+    }
+    /*table next and previous button*/
+    .tablepaginationbutton {
+        float: left;
+        padding: 2px 10px;
+        width: 230px;
+    }
+    .tablepaginationbutton a {
+        width: auto;
+        color: #fff;
+    }
+    /* For Disabling icons */
+    .disable {
+        opacity: 0.4;
+    }
+    /*
+.radioButton label:before, .radioButton label:before {
+    background-color: #E2E2E2;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15) inset, 0 1px 0 0 rgba(255, 255, 255, 0.7);
+    content: "";
+    display: inline-block;
+    height: 16px;
+    left: 0;
+    margin-right: 10px;
+    position: absolute;
+    width: 16px;
+}*/
+    /* for simple table total */
+    .simple_table_subtotal {
+        font-weight: 800;
+    }
+    /* For HIve filter */
+    .toplevelprompt {
+        min-height: 10px!important;
+    }
+    .toplevelprompt li {
+        list-style: none outside none;
+        padding-left: 5px;
+        cursor: pointer;
+        margin: 5px;
+        text-indent: -35px;
+    }
+    .dimnNameClass {}
+    .prevnxtdiv {
+        float: right;
+        width: 240px;
+    }
+    .prevnxtdiv li {
+        cursor: pointer;
+        list-style: none outside none;
+        margin: 5px;
+        padding-left: 5px;
+        text-indent: 0;
+    }
+    .prevnxtdivGen {
+        height: 30px;
+        position: relative;
+        width: 100%;
+        display: none;
+    }
+    .prevnxtdivGen li {
+        cursor: pointer;
+        margin: 0;
+        text-indent: 0;
+        positive: relative;
+    }
+    .nextbutton {
+        float: right;
+        color: #fff;
+        font-size: 10px;
+        background: #335885;
+        padding: 8px;
+        text-indent: 0px;
+        cursor: pointer
+    }
+    .prevbutton {
+        float: left;
+        color: #fff;
+        font-size: 10px;
+        background: #335885;
+        padding: 8px;
+        text-indent: 0px;
+        cursor: pointer
+    }
+    .dimnNameClassGen {
+        border_bottom: 1px solid #000border-bottom: 1px solid #000000;
+    }
+    .nextbuttonGen {
+        float: right;
+        color: #fff;
+        font-size: 10px;
+        background: #335885;
+        padding: 5px;
+    }
+    .prevbuttonGen {
+        float: left;
+        color: #fff;
+        font-size: 10px;
+        background: #335885;
+        padding: 5px;
+    }
+    .searchTxt {
+        width: 75%;
+        height: 25px;
+        border: none;
+        border-bottom: 1px solid #DBDBDB;
+        margin: 5px 0;
+        padding: 0 8px;
+    }
+    .searchTxt:hover {
+        border: none;
+        border-bottom: 1px solid #2b2b2b;
+    }
+    .searchTxtGen {
+        width: 160px;
+        height: 25px;
+        border: none;
+        border-bottom: 1px solid #DBDBDB;
+        margin: 5px 0;
+        padding: 0 8px;
+    }
+    .searchTxtGen:hover {
+        border: none;
+        border-bottom: 1px solid #2b2b2b;
+    }
+    .searchButton {
+        width: 25px;
+        height: 30px;
+        background: url('/NanoClientApplication/images/dashboard/Search-icon.png') no-repeat scroll 0 0 transparent;
+        margin-left: -30px;
+        border: none;
+        opacity: 1;
+    }
+    .searchButtonGen {
+        width: 25px;
+        height: 30px;
+        background: url('/NanoClientApplication/images/dashboard/Search-icon.png') no-repeat scroll 0 0 transparent;
+        border: none;
+        opacity: 1;
+        margin-left: -23px;
+        position: relative;
+    }
+    .swtScrh {
+        width: 20px;
+        height: 25px;
+        margin-top: 6px;
+        color: #333;
+    }
+    /*for prescriptive container added by piyush bageria */
+    /* #dashboardContainer div:not(#type2) div div .statsContainer{
+    left: 20px;
+    position: absolute;
+    display: none;
+    z-index:101;
+    bottom: 37px;
+} */
+    .infoInvestigateContainer,
+    .statsContainer {
+        left: 20px;
+        position: absolute;
+        display: none;
+        z-index: 101;
+        top: -58px;
+    }
+    .infoInvestigateList,
+    .statsList {
+        background-color: #fff;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+        border: 1px solid gray;
+    }
+    .infoInvestigateListItem,
+    .statsListItem {
+        color: #000000;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        text-indent: 10px;
+        width: 150px;
+    }
+    .investigateElement,
+    .ulControlClass {
+        display: none;
+    }
+    .infoInvestigateListItem:hover,
+    .statsListItem:hover {
+        background-color: #A9A9A9;
+    }
+    .prescriptiveModelBox {
+        /* width:1200px; */
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 10%;
+        margin-left: -600px;
+        z-index: 90000;
+        padding: 20px;
+        /*min-height: 250px;*/
+        /* height:400px; */
+        /* padding-bottom: 50px; */
+        background-color: white;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        max-height: 400px;
+        max-width: 1200px;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .prescriptiveContainer {
+        width: 394px;
+        height: 394px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .closePresButton {
+        position: fixed;
+        /* right: -1px;
+    top: -2px; */
+        display: none;
+        z-index: 90001;
+    }
+    .hasScrollBar {
+        padding: 20px 20px 10px 10px;
+    }
+    .hasScrollBar .closePresButton {
+        right: 0px;
+        top: 0px;
+    }
+    .imgHiveIcon {
+        border: 1px solid #BABABA;
+        float: left;
+        height: 42px;
+        margin: 9px 3px 6px 6px;
+        width: 50px;
+    }
+    #description {
+        font-family: Segoe UI;
+        font-size: 15px;
+        margin-top: 23px;
+    }
+    #imageList {
+        background: none repeat scroll 0 0 #F2F2F2;
+        cursor: pointer;
+        height: 34px;
+        margin-left: 5px;
+        margin-top: -18px;
+        padding: 0;
+        width: 40px;
+    }
+    #insideImage {
+        height: 32px;
+        margin-left: 5px;
+        width: 32px;
+    }
+    .styleHiveImageInput {
+        cursor: pointer;
+        direction: ltr;
+        height: 22px;
+        margin: 0;
+        opacity: 0;
+        position: relative;
+        right: 96px;
+        top: 6px;
+        transform: translate(108px, 4px) scale(2);
+        width: 26px;
+    }
+    /*Hive image icon*/
+    .hiveIconImage {
+        height: 110px;
+        margin-left: 10px;
+        width: 110px;
+        background: none repeat scroll 2px center #FFFFFF;
+    }
+    .uploadIconHidden {
+        cursor: pointer;
+        direction: ltr;
+        margin: 0;
+        opacity: 0;
+        right: 0;
+        top: 0;
+        transform: translate(52px, 10px) scale(1.5);
+    }
+    .selected_access_type {
+        color: #bebebe;
+    }
+    span.hiveNameAlignment {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 381px;
+        display: inline-block;
+    }
+    .fontSize {
+        font-size: 20px;
+    }
+    .auto-filled-hive {
+        float: left;
+        margin: 0 0 15px 20px;
+        width: 880px;
+    }
+    span.hiveNameAlignment {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 381px;
+        display: inline-block;
+    }
+    .searchFilter {
+        position: relative;
+        top: 10px;
+        right: 20px;
+        background: url(/NanoClientApplication/images/dashboard/search-dark.png) no-repeat 10px 6px #fcfcfc;
+        border: 1px solid #d1d1d1;
+        font: bold 12px Arial, Helvetica, Sans-serif;
+        color: #bebebe;
+        margin-left: 10px;
+        margin-top: 5px;
+        min-height: 23px;
+        outline: 0 none;
+        padding: 1px 15px 2px 32px;
+        width: 171px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+        -webkit-transition: all 0.7s ease 0s;
+        -moz-transition: all 0.7s ease 0s;
+        -o-transition: all 0.7s ease 0s;
+        transition: all 0.7s ease 0s;
+    }
+    /*for calndar soft pop up */
+    .calPopUpClose {
+        background: url("/NanoClientApplication/images/close_pop.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        cursor: pointer;
+        display: inline;
+        height: 24px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        width: 24px;
+        z-index: 3200;
+    }
+    .calPopUpBx {
+        background-color: #FFFFFF;
+        border: 2px solid black;
+        color: #000000;
+        position: fixed;
+        z-index: 5000001;
+    }
+    .calPopUpContentDownload {
+        background: none repeat scroll 0 0 #F7F8E0;
+        height: 144px;
+        padding: 10px;
+    }
+    @font-face {
+        font-family: 'WebRupee';
+        src: url('/NanoClientApplication/newWebApp/assets/fonts/WebRupee.V2.0.eot');
+        src: local('WebRupee'), url('/NanoClientApplication/newWebApp/assets/fonts/WebRupee.V2.0.ttf') format('truetype'), url('/NanoClientApplication/newWebApp/assets/fonts/WebRupee.V2.0.woff') format('woff'), url('/NanoClientApplication/newWebApp/assets/fonts/WebRupee.V2.0.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    .WebRupee {
+        font-family: 'WebRupee';
+    }
+    .metaInfoModelBox {
+        width: 500px;
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 20%;
+        margin-left: -250px;
+        z-index: 90000;
+        /*min-height: 250px;*/
+        height: 300px padding-bottom: 50px;
+        background-color: white;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+    }
+    .metaInfoContainer {
+        padding: 20px;
+    }
+    .metaInfoHeaderWrapper {
+        text-align: center;
+    }
+    .metaInfoHeader {
+        display: inline-block;
+        font-size: 24px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-weight: normal;
+    }
+    .metaInfoClose {
+        display: inline-block;
+        float: right;
+    }
+    .metaInfoWrapper {
+        border: 1px solid black;
+        overflow-y: auto;
+        margin-top: 10px;
+        height: 235px;
+    }
+    .metaInfoSubheader {
+        background-color: #335885;
+        margin-top: 0px;
+        text-align: center;
+        color: white;
+        margin-bottom: 0px;
+        line-height: 25px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .metaSubInfoItem {
+        padding: 0px 5px 5px;
+    }
+    .metaSubItemValue {
+        float: right;
+    }
+    /*Share tab*/
+    ul.list li {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+    ul.tabs {
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid #43b0ce;
+    }
+    ul.tabs li {
+        font-weight: 600;
+        list-style-type: none;
+        display: block;
+        float: left;
+        color: #fff;
+        padding: 8px;
+        margin-right: 2px;
+        border-bottom: 2px solid #2f2f2f;
+        background-color: #1f5e6f;
+        -moz-border-radius: 4px 4px 0 0;
+        -webkit-border-radius: 4px 4px 0 0;
+        cursor: pointer;
+        border-radius: 5px 5px 0 0;
+    }
+    ul.tabs li:hover {
+        background-color: #43b0ce;
+    }
+    ul.tabs li.current {
+        background-color: #335885;
+        border-bottom: 2px solid #335885;
+        padding: 8px;
+    }
+    ul li {
+        list-style: none outside none;
+    }
+    #shareDashboardShared {
+        float: right;
+        left: -196px;
+        position: relative;
+    }
+    /*calendar new css*/
+    .calSheet {
+        cursor: default;
+        display: block;
+        opacity: 0.8;
+        position: absolute;
+        width: 1190px;
+        top: 0px;
+        z-index: 450;
+    }
+    .closeCalBox {
+        float: right;
+    }
+    .listCalDiv {}
+    .calendarStick {
+        height: 254px;
+        float: left;
+        background: -moz-linear-gradient(white, red);
+        background: linear-gradient(white, red);
+        opacity: 0.7;
+    }
+    .calendarStick:hover {
+        background-color: orange;
+        border: 1px solid orange;
+        border-spacing: 5px 5px;
+        opacity: 1;
+        -moz-transition: all .5s ease;
+    }
+    .calDescription {
+        width: 300px;
+        background: none repeat scroll 0 0 #ddd;
+        box-shadow: 1px 1px 1px #777;
+        z-index: 999999;
+        display: none;
+        margin-top: 20px;
+        position: sticky;
+        border: 1px solid #ccc;
+        height: 90px;
+        overflow: auto;
+    }
+    .descText {
+        color: black;
+        text-align: center;
+        padding-bottom: 7px;
+        padding-top: 5px;
+        border-bottom: 1px solid #ccc;
+        font-size: 16px;
+    }
+    .dispCalDesc {
+        color: black;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-left: 10px;
+        letter-spacing: 0.5px;
+        padding-bottom: 5px;
+    }
+    .calTable {
+        width: 50px;
+        height: 15px;
+        color: black;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        padding-left: 10px;
+    }
+    /*Colour picker CSS*/
+    #colourPickerWrapper {}
+    #colourPicker {
+        background: none repeat scroll 0 0 #FAFAFA;
+        border: 1px solid #666666;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        padding: 10px 5px 5px 10px;
+        z-index: 9999999;
+        position: relative;
+        opacity: .9;
+        display: none;
+    }
+    #colourPicker ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 180px;
+        height: 140px;
+    }
+    #colourPicker ul li {
+        float: left;
+        margin: 0 5px 5px 0;
+    }
+    #colourPicker ul li a:hover {
+        border: 1px solid #000;
+    }
+    #colourPicker ul li a {
+        border: 1px solid #AAAAAA;
+        display: block;
+        height: 13px;
+        outline: 0 none;
+        text-decoration: none;
+        text-indent: -100000px;
+        width: 13px;
+    }
+    .closeColorPicker {
+        width: 20px;
+        height: 20px;
+        right: -18px;
+        top: -18px;
+        position: absolute;
+    }
+    .indianEventsMini {
+        background-color: #335885 !important;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+        height: 39px;
+        position: relative;
+        float: left;
+    }
+    .calendarFooter {
+        background-color: #335885;
+        bottom: 20px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+        color: #FFFFFF;
+        float: right;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        font-weight: 100;
+        height: 30px;
+        margin-left: 219px;
+        padding-left: 16px;
+        padding-top: 10px;
+        position: fixed;
+        width: 66px;
+        cursor: pointer;
+    }
+    .calDashbrdUpload {
+        margin-bottom: 20px;
+        height: auto;
+        width: 295px;
+        color: #FFFFFF;
+        font-family: Segoe UI;
+        font-size: 17px;
+        font-weight: 100;
+        margin: 175% 0 0 22px;
+        position: absolute;
+        transition: margin-top 2s;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .calDashbrdUpload:hover {
+        opacity: 0.9;
+    }
+    .calStyle {
+        margin-left: 96px;
+        padding-top: 10px;
+    }
+    .calEntry {
+        margin: 3px;
+    }
+    .inputStyleCalHive {
+        color: #666666;
+        margin: 5px;
+        padding: 10px;
+        width: 90%;
+    }
+    .user-cal-hdr {
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #666666;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+        color: #000000;
+        display: block;
+        font-size: 17px;
+        font-weight: 400;
+        height: 30px;
+        letter-spacing: 0.01em;
+        line-height: 30px;
+        padding: 10px 68px 5px;
+        white-space: nowrap;
+    }
+    #saveHiveCal {
+        background: none repeat scroll 0 0 #335885;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 0;
+        box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.7);
+        color: #FCFCFC;
+        cursor: pointer;
+        font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        height: 40px;
+        float: right;
+        margin: 10px;
+        position: relative;
+        text-align: center;
+        text-shadow: 2px 2px 2px #333333;
+        width: 120px;
+    }
+    #saveEditHiveCal {
+        background: none repeat scroll 0 0 #335885;
+        border-radius: 0;
+        color: #FCFCFC;
+        cursor: pointer;
+        height: 35px;
+        float: right;
+        margin: 5px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    #upload-icon {
+        border: 1px solid #C2C2C2;
+        margin: 5px;
+        padding: 10px;
+        width: 90%;
+    }
+    .calendarHiveSuccess {
+        font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        height: 40px;
+        color: white;
+        margin: 225px 0 0 22px;
+        position: absolute;
+        height: auto;
+        opacity: 0.5;
+        display: none;
+    }
+    .editCalDashbrdUpload {
+        margin-bottom: 20px;
+        height: auto;
+        width: 295px;
+        color: #FFFFFF;
+        font-family: Segoe UI;
+        font-size: 17px;
+        font-weight: 100;
+        margin: 225px 0 0 22px;
+        position: absolute;
+        transition: margin-top 2s;
+        opacity: 0.9;
+        cursor: pointer;
+        display: none;
+        border: 1px solid grey;
+    }
+    /*new cal css ends here*/
+    #embed_icon_sub_container {
+        height: 77%;
+        overflow: auto;
+        padding: 0 12px;
+        position: relative;
+    }
+    #embed_icon_sub_container li {
+        padding: 3px;
+    }
+    #embed_icon_sub_container span {
+        padding: 5px;
+    }
+    #embed_icon_container span#manage_icon_title {
+        background: none repeat scroll 0 0 #BBBBBB;
+        display: inline-block;
+        font-size: 18px;
+        height: 32px;
+        text-align: center;
+        width: 148px;
+    }
+    .topNbottomN {
+        float: left;
+        margin-left: 34px;
+    }
+    #drillthroughcontainerheader {
+        display: block;
+    }
+    #drillthroughtitle {
+        float: left;
+        width: 78%
+    }
+    #drillthroughiconcontainer {
+        display: block;
+        width: 16%;
+        float: left;
+        display: inline;
+        margin-top: 6px;
+    }
+    #filtercontent {
+        position: absolute;
+        display: none;
+        min-width: 164px;
+        border: 1px solid;
+    }
+    #drillthroughtopnbottomfilter {
+        background-color: #335885;
+        margin-bottom: -3px;
+        margin-left: 37px;
+        margin-top: 10px;
+        color: white;
+    }
+    .topNbottomN ul {
+        min-width: 109px;
+        min-height: 70px;
+        overflow: auto;
+    }
+    .topNbottomN ul li {
+        min-width: 132px;
+    }
+    #filtercontent input#numRows {
+        width: 64px;
+    }
+    .drillDownload-btn-container {
+        position: absolute;
+        border: 1px solid;
+        height: 16%;
+        width: 17%;
+        /*  background:#ff0000; */
+        display: none;
+        z-index: 9;
+        float: right;
+        right: 57px;
+        top: 45px;
+    }
+    a.download-current {
+        display: inline-block;
+        height: 49%;
+        position: relative;
+        width: 100%;
+        /*  top:1%; */
+        bottom: 20%;
+        background: #ffffff;
+        line-height: 2;
+        border-bottom: 1px solid #000000;
+    }
+    a.download-all {
+        display: inline-block;
+        height: 49%;
+        position: relative;
+        width: 100%;
+        bottom: 19%;
+        background: #ffffff;
+        line-height: 2;
+    }
+    .popupFilter {
+        background: url("/NanoClientApplication/images/bgwork.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: #c2c7c7;
+        bottom: 0;
+        display: none;
+        height: 130px;
+        opacity: 1;
+        position: absolute;
+        top: 40px;
+        width: 230px;
+        border: 1px solid #727474;
+        left: -125px;
+        border-radius: 8px;
+        padding: 10px;
+        overflow-x: auto;
+        -moz-box-shadow: 0 0 5px #888;
+        -webkit-box-shadow: 0 0 5px#888;
+        box-shadow: 0 0 5px #888;
+    }
+    .popupFilter ul li {
+        color: #2B2B2B;
+        opacity: 1;
+        padding: 3px 0 3px 10px
+    }
+    .activefeature {
+        background-color: #bd6f08;
+        border-radius: 32px;
+        -moz-box-shadow: inset 0 0 5px 5px #888;
+        -webkit-box-shadow: inset 0 0 5px 5px#888;
+        box-shadow: inset 0 0 5px 5px #888;
+    }
+    .none {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
+    #sendMailToSharee {
+        float: right;
+        height: 38px;
+        margin-right: 12px;
+        margin-top: -39px;
+    }
+    .filterDropDown {
+        border: 0 !important;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: url('/NanoClientApplication/images/drop-down-icon.png') no-repeat;
+        background-position: 82px 7px;
+        width: 100px;
+        text-indent: 0.01px;
+        text-overflow: "";
+        color: #ffffff;
+        padding: 6px;
+    }
+    .tagOptions {
+        background: none repeat scroll 0 0 #CCCCCC;
+        border: 2px ridge;
+        height: auto;
+        max-height: 61px;
+        overflow: auto;
+        position: absolute;
+        left: 59px;
+        top: 162px;
+        width: 281px;
+        z-index: 2776;
+    }
+    .liStyleTag {
+        background: none repeat scroll 0 0 #CCCCCC;
+        height: 18px;
+        padding: 6px;
+    }
+    .liStyleTag:hover {
+        background: #F2F2F2;
+    }
+    .closeImg {
+        float: right;
+        padding: 2px;
+        position: relative;
+        width: 16px;
+    }
+    .selectedTag {
+        border: 1px dotted;
+        float: left;
+        margin-left: 2px;
+        min-width: 5px;
+        padding: 1px;
+        position: relative;
+        top: 5px;
+    }
+    #tagBoxesVal {
+        float: left;
+        background-color: #FFFFFF;
+        background-position: right center;
+        background-repeat: no-repeat;
+        border: 1px solid #BABABA;
+        margin-left: 10px;
+        margin-top: 5px;
+        min-height: 36px;
+        outline: 0 none;
+        padding: 6px 5px;
+        width: 340px;
+    }
+    #tagInput {
+        height: 30px;
+        margin: 9px;
+        padding: 6px;
+        width: 271px;
+        font-size: 15px;
+        float: left;
+    }
+    .hiveFilterTabUl {
+        border-bottom: 1px solid #B0B0B0;
+        height: 28px;
+        overflow: hidden !important;
+        width: 370px;
+    }
+    .hiveFilterLi {
+        border: 1px solid black;
+        border-bottom: 0 none;
+        height: 37px;
+        float: left;
+        margin-left: 7px;
+        line-height: 28px;
+        padding: 0 7px 0 7px;
+        width: 62px;
+        border-radius: 5px 5px 0 0;
+    }
+    li.filterselected {
+        height: 38px;
+        background: none repeat scroll 0 0 #B0B0B0;
+    }
+    #imgInHiveDD {
+        height: 17px;
+        width: 17px;
+    }
+    #filterByTagTab:hover ul {
+        display: inherit;
+        width: auto;
+    }
+    #filterByTagTab ul {
+        top: 40px;
+        display: none;
+        list-style-type: none;
+    }
+    #menuWithTags {
+        background: none repeat scroll 0 0 #B3B3B3;
+        height: 204px;
+        position: absolute;
+        right: 88px;
+        top: 48px;
+        width: 201px;
+        z-index: 99999999
+    }
+    #filterByT {
+        position: relative;
+    }
+    .accessTypeSelector {
+        margin-bottom: 1.5em;
+    }
+    input[type=radio].css-checkbox {
+        display: none;
+    }
+    input[type=radio].css-checkbox + label.css-label {
+        padding-left: 20px;
+        height: 24px;
+        display: inline-block;
+        line-height: 24px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    input[type=radio].css-checkbox:checked + label.css-label {
+        background-position: 0 -24px;
+    }
+    label.css-label {
+        background-image: url(/NanoClientApplication/images/dashboard/csscheckbox.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    #publAccessTy {
+        position: relative;
+        right: -63px;
+    }
+    #sharedAccessTy {
+        position: relative;
+        right: -63px;
+    }
+    #PriAccessTy {
+        position: relative;
+        right: -47px;
+    }
+    .css-label span {
+        position: relative;
+        right: -7px;
+    }
+    #hiveAccessType {
+        position: relative;
+        right: -25px;
+    }
+    #fileNameImg {
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 119px;
+        position: relative;
+        font-size: 14px;
+        top: 81px;
+        right: -4px;
+    }
+    .shareInfo {
+        float: right;
+        margin-right: 7px;
+        margin-top: -30px;
+        width: 25px;
+    }
+    .sharePM {
+        right: 2px;
+        top: 2px;
+    }
+    .popUpMenuShare {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+        box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.7);
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+    }
+    .popUpMenuShare li {
+        cursor: pointer;
+        display: block;
+        list-style: none outside none;
+        padding: 0 12px;
+        position: relative;
+    }
+    .sharedModeInfo {
+        background-color: #CCCCCC;
+        border: 1px solid #CCCCCC;
+        box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.7);
+        cursor: pointer;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .Enableformatting-drill-container {
+        width: 20%;
+        display: inline-block;
+        position: relative;
+        float: left;
+        display: none;
+    }
+    .Enableformatting-drill {
+        position: absolute;
+        left: 24px;
+        top: 2px;
+    }
+    input.add {
+        float: right;
+    }
+    input.fieldname {
+        left: 20px;
+    }
+    .alertcontainer {
+        margin-top: 20px;
+    }
+    .fieldwrapper {
+        right: 20px;
+        margin-left: 146px;
+        margin-top: 10px;
+    }
+    .removebox {
+        height: 10px;
+        width: 10px;
+    }
+    #alertnames {
+        display: block;
+        font-size: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 350px;
+    }
+    .headerofalert {
+        padding-left: 10px;
+    }
+    .alertfolderList {
+        margin: 0;
+        padding: 0;
+    }
+    .alertfolderList li {
+        list-style-image: url("/NanoClientApplication/images/orange_folder.png");
+        margin: 10px 10px 10px 25px;
+    }
+    #nameofalert {
+        margin-left: 42px;
+    }
+    #descrip {
+        margin-top: 10px;
+    }
+    #alertnows {
+        opacity: 1 !important;
+    }
+    #alertemail {
+        opacity: 1 !important;
+    }
+    #alertnow {
+        opacity: 1 !important;
+    }
+    .rhs {
+        margin-left: 114px;
+    }
+    .operator {
+        margin-left: 153px;
+    }
+    #alertsms {
+        opacity: 1 !important;
+    }
+    .alertcheckbox {
+        opacity: 1 !important;
+    }
+    .lvl-name-chkbx {
+        position: relative;
+        left: -4px;
+        top: 3px;
+    }
+    .msr-name-chkbx {
+        position: relative;
+        left: -4px;
+        top: 3px;
+    }
+    .savedrillthrough {
+        position: relative;
+        left: 8px;
+        /* display:none; */
+    }
+    #showAtomicExpression {
+        margin-left: 1%;
+    }
+    .inputStyles {
+        border: 1px solid #CCCCCC;
+        box-shadow: 0 0 5px #CCCCCC inset;
+        height: 25px;
+        line-height: 1em;
+        padding: 5px;
+        margin-left: 0px;
+        width: 270px;
+    }
+    .fieldname {
+        border: 1px solid #CCCCCC;
+        box-shadow: 0 0 5px #CCCCCC inset;
+        height: 25px;
+        line-height: 1em;
+        padding: 5px;
+        width: 165px;
+    }
+    #alertSave {
+        background: #34495e;
+        color: #fff;
+        margin-left: 652px;
+    }
+    #alertSaveAs {
+        background: #34495e;
+        color: #fff;
+        margin-left: 652px;
+    }
+    .ui-state-default,
+    .ui-widget-content .ui-state-default,
+    .ui-widget-header .ui-state-default {
+        background:#A39E9E/*{bgColorDefault}*/
+        /*{bgImgUrlDefault}*/
+        50%/*{bgDefaultXPos}*/
+        50%/*{bgDefaultYPos}*/
+        repeat-x/*{bgDefaultRepeat}*/
+    }
+    .ui-widget-header {
+        border: 1px solid #FFFFFF/*{borderColorHeader}*/
+        ;
+        background: #B3B3B3/*{bgColorHeader}*/
+        url(../images/ui-bg_highlight-soft_75_cccccc_1x100.png)/*{bgImgUrlHeader}*/
+        50%/*{bgHeaderXPos}*/
+        50%/*{bgHeaderYPos}*/
+        repeat-x/*{bgHeaderRepeat}*/
+        ;
+        color: #222222/*{fcHeader}*/
+        ;
+        font-weight: bold;
+        margin-top: -0.5%;
+    }
+    #alertul {
+        margin-top: -0.6%;
+        border: 0px solid #fff;
+    }
+    #crudbutton {
+        margin-top: 3%;
+    }
+    #alertlist_id_wrapper {
+        margin-top: 2%;
+    }
+    .dataTables_empty {
+        display: none
+    }
+    .conditional {
+        margin-left: 0px
+    }
+    /*.logicaloperator {border: 1px solid #CCCCCC;box-shadow: 0 0 5px #CCCCCC inset; height: 36px;line-height: 1em;padding: 5px;width: 70px;margin-top: 3px;margin-bottom: 6px;}*/
+    .alert-title {
+        font-size: 24px;
+        margin-left: 343px;
+    }
+    .alertNone {
+        display: none !important;
+    }
+    .alertClose {
+        background: url("/NanoClientApplication/images/close.png") no-repeat scroll 0 0 transparent;
+        cursor: pointer;
+        display: inline;
+        height: 24px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        width: 24px;
+        z-index: 3200;
+    }
+    #drill-pagination input {
+        background: #335885;
+        color: #fff;
+    }
+    /* css for drill across */
+    .drillList {
+        background: #F9AE59 none repeat scroll 0 0;
+        border-radius: 70px;
+        color: #000;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        height: 95px;
+        line-height: 6;
+        text-align: center;
+        width: 95px;
+    }
+    .drillList:hover {
+        background: #6c6095 none repeat scroll 0 0;
+    }
+    .dimListAcross {
+        background: #f9ae59 none repeat scroll 0 0;
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 3;
+        text-align: center;
+    }
+    .drillDimList {
+        background: white none repeat scroll 0 0;
+        display: none;
+        height: 160px;
+        margin-left: 90px;
+        margin-top: -56px;
+        position: absolute;
+        width: 200px !important;
+        z-index: 1;
+    }
+    .addscroller {
+        height: 120px;
+        width: 199px;
+    }
+    .addscroller li {
+        height: 20px;
+        font-size: 14px;
+        padding: 5px;
+        color: #000;
+        width: 200px;
+        text-align: left;
+        line-height: 2;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #divAcross {
+        height: 120px;
+        width: 180px !important;
+        border: 1px solid #C6C6C6;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        z-index: 999;
+        margin: -210px 0 0 200px;
+        position: absolute;
+        transition: margin-left 5s;
+        background: white;
+        display: none;
+    }
+    .dimListing {
+        height: 15px;
+        font-size: 14px;
+        padding: 10px 10px 10px;
+        cursor: pointer;
+        color: grey;
+    }
+    .dimListing:hover {
+        background: grey;
+        color: white;
+    }
+    /* drill across css ends here */
+    .chkOpacity {
+        opacity: 0.4;
+        pointer-events: none;
+    }
+    /* For insufficient data message */
+    .insufficientData {
+        font-size: 20px;
+        margin-left: -199px;
+        margin-top: -24px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 431px;
+    }
+    .insufficientDataIndicator {
+        font-size: 14px;
+        margin-left: -92px;
+        margin-top: -24px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 188px;
+    }
+    .insuffImg {
+        margin-top: 6px;
+    }
+    .memberlist {
+        margin-left: 320px;
+        width: 400px;
+    }
+    .dateFilterText.colhighl {
+        color: none;
+    }
+    div.appInformation {
+        border: 1px solid #ccc;
+        float: right;
+        height: auto;
+        min-width: 396px;
+    }
+    div.ellipseSet {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 106px;
+    }
+    /*drill path*/
+    .drillPath {
+        height: 20px;
+        width: auto !important;
+        border: 1px solid #C6C6C6;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        z-index: 9999;
+        position: absolute;
+        background: white;
+    }
+    .drillPathList {
+        height: 20px;
+        padding: 2px 2px 2px;
+        color: #464A4F;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    /* drill path ends */
+    /*drilldown for GAUGE indicator*/
+    .drillDownForIndicator {
+        /* the main box */
+        height: auto;
+        width: 1150px;
+        background-color: #fff;
+        top: -10px;
+        border-radius: 0 0 6px 6px;
+        display: none;
+        box-shadow: 0 0 64px #000;
+        top: -10px !important;
+    }
+    .header {
+        /* header */
+        height: 25px;
+        width: 95%;
+        padding: 25px 28px 35px;
+        box-shadow: 1px 3px 2px rgba(204, 204, 204, 0.6);
+        background-color: #ddd;
+        border-bottom: 1px solid #ccc;
+        text-shadow: 0 1px 0 #f4f4f4;
+        float: left;
+    }
+    .headerDrillAcross {
+        /* drill across heading */
+        color: #464a4f;
+        display: none;
+        float: left;
+        font-size: 20px;
+        height: 25px;
+        margin-left: 16%;
+        padding: 10px;
+        position: fixed;
+        text-align: left;
+        text-shadow: 2px 2px 5px #888888;
+        width: 23%;
+    }
+    .slectbox {
+        /* selector */
+        color: #464a4f;
+        float: right;
+        font-size: 14px;
+        height: 35px;
+        line-height: 1em;
+        width: 25%;
+        padding-left: 5px;
+        margin-right: 20px;
+    }
+    .closeDrillIndicator {
+        /* pop up close button */
+        color: #777;
+        cursor: pointer;
+        display: block;
+        float: right;
+        font-size: 16px;
+        margin: 10px;
+    }
+    .addTextIndicator {
+        /* text which appears inside body */
+        height: auto;
+        width: auto;
+        color: #cccccc;
+        font-size: 25px;
+        text-align: center;
+        margin: 100px;
+    }
+    .showDateIndicatorDrillDown {
+        color: #464a4f;
+        margin-left: 10px;
+        margin-top: 35px;
+        position: absolute;
+    }
+    .measureNameDisp {
+        /* measure name which appears in the heading */
+        color: #464a4f;
+        display: none;
+        float: left;
+        height: 25px;
+        padding: 10px;
+        position: fixed;
+    }
+    .labelInfo {
+        /* label which appears at the buttom of each indicator */
+        color: #464a4f;
+        width: 20px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: -90px;
+    }
+    .newGaugeDiv {
+        /* every gauge appears inside this class */
+        width: 99.9%;
+        padding-bottom: 5px;
+        color: #464A4F;
+        font-size: 12px;
+    }
+    .indicatorBody {
+        /* the full div where all the gauges appear together */
+        min-height: 0px;
+        max-height: 550px;
+        width: 100%;
+    }
+    .drillFooterGauge {
+        /*  gauge box footer */
+        background-color: white;
+        border-top: 1px solid #ddd;
+        height: 25px;
+        margin: 5px;
+        width: 99%;
+    }
+    .labelName {
+        /* label name which appears inside ever section on the top LHS corner */
+        background-color: rgba(50, 50, 50, 0.9);
+        box-shadow: 2px 2px 2px #cccccc;
+        color: white;
+        font-size: 20px;
+        height: 40px;
+        left: 35px;
+        position: relative;
+        text-align: center;
+        width: 200px;
+        font-weight: lighter;
+        border-radius: 2px;
+    }
+    .simpleIndicatorDrillLook {
+        background-color: #ddd;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+        color: #464a4f;
+        float: left;
+        line-height: 1.5em;
+        margin: 10px;
+        width: 199px;
+        cursor: pointer;
+        padding: 5px;
+        text-align: center;
+        border-bottom: 1px solid #777;
+    }
+    .newIndiDiv {
+        /* every gauge appears inside this class */
+        /*position: relative;*/
+        width: 99.9%;
+        padding-bottom: 5px;
+        color: #464A4F;
+        min-height: 1px;
+        overflow: auto;
+    }
+    .simpleIndicatorLabel {
+        background-color: rgba(50, 50, 50, 0.9);
+        color: white;
+        height: 18px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    /*drilldown for GAUGE indicator -- ENDS */
+    /* table Drill down */
+    span.drillHandler {
+        cursor: pointer;
+    }
+    /* .drillHandler:before{content: "+";line-height: 14px;background: none repeat scroll 0 0 #eee;border: 1px solid #ccc;border-radius: 100%; cursor: pointer;height: 16px; width: 16px;    line-height: 14px;text-align: center;vertical-align: middle; display:inline-block; margin-right:5px;}
+.drillHandler.expanded:before{content: "-";line-height: 6px;background: none repeat scroll 0 0 #eee;border: 1px solid #ccc;border-radius: 100%; cursor: pointer;height: 16px; width: 16px;    line-height: 14px;text-align: center;vertical-align: middle; display:inline-block; margin-right:5px;}
+
+ */
+    .fieldname {
+        background-color: #FFFFFF;
+        background-image: none;
+        border: 1px solid #CCCCCC;
+        border-radius: 4px 4px 4px 4px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+        color: #555555;
+        display: block;
+        font-size: 14px;
+        height: 34px;
+        line-height: 1.42857;
+        padding: 6px 12px;
+        width: 100%;
+    }
+    .logicaloperator {
+        background-color: #FFFFFF;
+        background-image: none;
+        border: 1px solid #CCCCCC;
+        border-radius: 4px 4px 4px 4px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+        color: #555555;
+        font-size: 14px;
+        height: 34px;
+        line-height: 1.42857;
+        padding: 6px 12px;
+        width: 75px;
+        margin-left: 290px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .prnt_ul li {
+        padding-left: 6%;
+    }
+    .prnt_ul li>span {
+        margin-left: -6%;
+    }
+    .prnt_ul li>span.col-md-10 {
+        margin-left: -4%;
+    }
+    .loginDetails {
+        color: #999999;
+        cursor: pointer;
+        font-size: 17px;
+        line-height: 1;
+        margin-right: 108px;
+        margin-top: 0px !important;
+    }
+    .loginDetails span {
+        color: #999999;
+        font-size: 14px;
+    }
+    .heart {
+        font-size: 35px;
+        text-align: center;
+        color: rgba(165, 25, 25, 1);
+        padding: 0;
+        margin: 0;
+    }
+    .pulse1 {
+        -webkit-animation: pulse1 1s linear infinite;
+        -moz-animation: pulse1 1s linear infinite;
+        -ms-animation: pulse1 1s linear infinite;
+        animation: pulse1 1s linear infinite;
+    }
+    @keyframes "pulse1" {
+        0% {
+            color: rgba(165, 25, 25, 1);
+        }
+        90% {
+            color: rgba(255, 0, 0, 0.0);
+        }
+        100% {
+            color: rgba(255, 0, 0, 1.0);
+        }
+    }
+    @-moz-keyframes pulse1 {
+        0% {
+            color: rgba(165, 25, 25, 1);
+        }
+        90% {
+            color: rgba(255, 0, 0, 0.0);
+        }
+        100% {
+            color: rgba(255, 0, 0, 1.0);
+        }
+    }
+    @-webkit-keyframes "pulse1" {
+        0% {
+            color: rgba(165, 25, 25, 1);
+        }
+        90% {
+            color: rgba(255, 0, 0, 0.0);
+        }
+        100% {
+            color: rgba(255, 0, 0, 1.0);
+        }
+    }
+    @-ms-keyframes "pulse1" {
+        0% {
+            color: rgba(165, 25, 25, 1);
+        }
+        90% {
+            color: rgba(255, 0, 0, 0.0);
+        }
+        100% {
+            color: rgba(255, 0, 0, 1.0);
+        }
+    }
+    .headerIcon {
+        width: 32px;
+        height: 32px;
+        float: left;
+        padding: 2px 4px;
+        background: url("/NanoClientApplication/images/dashboard/dashboard_exptn_fmatg_hd.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    }
+    .exptfmt {
+        width: 1000px;
+        height: 440px;
+        border: none;
+    }
+    .exptFmtWrap {
+        min-height: 350px;
+        max-height: 350px;
+        height: 400px!important;
+    }
+    .popUpWrapHeader {
+        background: none repeat scroll 0 0 #335885;
+        color: #fff;
+        height: 37px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    .exptDiv {
+        height: auto!important;
+        left: 0;
+        margin: 4px 0;
+        padding: 0 !important;
+        width: 992px;
+    }
+    #addTempExp {
+        border: medium none;
+        cursor: pointer;
+        float: left;
+        height: 24px;
+        margin: 0 10px;
+        padding: 0;
+        width: 24px;
+        background: url("/NanoClientApplication/images/dashboard/exptn_fmatg_hd_add.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    }
+    #fromVale[type=input] {
+        width: 90px;
+        height: 18px;
+    }
+    #toVal[type=input] {
+        width: 90px;
+        height: 18px;
+    }
+    #iconClass[type=input] {
+        width: 90px;
+        height: 18px;
+    }
+    #meraureTxtColor[type=input] {
+        width: 90px;
+        height: 18px;
+    }
+    #meraureBgColor[type=input] {
+        width: 90px;
+        height: 18px;
+    }
+    #iconDrpDwn {
+        width: 90px;
+        height: 25px;
+    }
+    #shwDrpDwn {
+        width: 90px;
+        height: 25px;
+    }
+    #revexp[type=button] {
+        background-image: url("/NanoClientApplication/images/dashboard/deshdoard_remove.png");
+        background-repeat: no-repeat;
+        border: medium none;
+        box-shadow: none;
+        height: 25px !important;
+        margin: 5px 12px;
+        min-width: 25px !important;
+    }
+    #operator1 {
+        width: 120px;
+        height: 25px;
+    }
+    #operator2 {
+        width: 120px;
+        height: 25px;
+    }
+    .green-arrow-up {
+        height: 24px;
+        background-image: url("/NanoClientApplication/images/dashboard/Green-arrow.png");
+        background-repeat: no-repeat;
+    }
+    .green-arrow-down {
+        height: 24px;
+        background-image: url("/NanoClientApplication/images/dashboard/Green-arrow.png");
+        background-repeat: no-repeat;
+    }
+    .red-arrow-up {
+        height: 24px;
+        background-image: url("/NanoClientApplication/images/dashboard/red-arrow.png");
+        background-repeat: no-repeat;
+    }
+    .red-arrow-down {
+        height: 24px;
+        background-image: url("/NanoClientApplication/images/dashboard/red-arrow.png");
+        background-repeat: no-repeat;
+    }
+    .warring {
+        height: 24px;
+        background-image: url("/NanoClientApplication/images/dashboard/warning.png");
+        background-repeat: no-repeat;
+    }
+    .iconWidth {
+        width: 24px;
+    }
+    table#exptTble {
+        width: 100%;
+        background-color: #f1f1c1;
+        border-spacing: 1px;
+    }
+    table#exptTble,
+    th#exptTble,
+    td#exptTble {
+        border-collapse: collapse;
+    }
+    th#exptTble,
+    td#exptTble {
+        padding: 5px;
+    }
+    table#exptTble th {
+        text-align: left;
+        height: 30px;
+        line-height: 2;
+    }
+    table#exptTble tr:nth-child(even) {
+        background-color: #eee;
+    }
+    table#exptTble tr:nth-child(odd) {
+        background-color: #fff;
+    }
+    table#exptTble th {
+        color: #fff;
+        background: #708AAA;
+    }
+    #perslHive {
+        width: 400px;
+        height: 300px;
+    }
+    #perslHive .headerIcon {
+        width: 32px;
+        height: 32px;
+        float: left;
+        padding: 2px 4px;
+        background: url("/NanoClientApplication/images/dashboard/dashboard_Personalization.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    }
+    .ListOfHiveFeature {
+        height: 150px;
+        padding: 5px;
+        width: 400px;
+    }
+    .ListOfHiveFeature li {
+        float: left;
+        height: 20px;
+        padding: 5px;
+        width: 190px;
+    }
+    .setPerlWith {
+        width: 90px;
+    }
+    /*Chart type selector */
+    .chartType {
+        border: 1px solid #000;
+        cursor: pointer;
+        float: left;
+        height: 65px;
+        margin: 5px;
+        padding: 2px;
+        position: relative;
+        text-align: center;
+        width: 65px;
+        font-size: 11px;
+        word-wrap: break-word;
+        font-family: "Segoe UI", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    }
+    .chartType.selected {
+        border: 1px solid #e84b00
+    }
+    .chartType:hover {
+        border: 1px solid #fdd299
+    }
+    .chartType .chartImg {
+        width: 45px;
+        height: 45px
+    }
+    /*Chart type selector end*/
+    /*date as of*/
+    .DateWtMartD {
+        background: #fff none repeat scroll 0 0;
+        box-shadow: 7px 7px 5px #888888;
+        color: #000;
+        height: auto;
+        position: absolute;
+        width: 275px;
+        z-index: 50;
+        right: 0;
+    }
+    .DateWtMartD li {
+        height: 25px;
+        padding: 5px;
+    }
+    .DateWtMartD .date {
+        width: 75px
+    }
+    .DateWtMartD .martName {
+        float: left;
+        font-weight: 500;
+        width: 155px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    /* ....swaping of layout... */
+    .d-d-itm-select {
+        background: url("/NanoClientApplication/images/dashboard/copy.svg") no-repeat scroll center center rgba(0, 0, 0, 0);
+        cursor: pointer;
+        display: block;
+        height: 24px;
+        right: -33px;
+        top: 28px;
+        width: 24px;
+    }
+    .d-d-itm-up {
+        background: url("/NanoClientApplication/images/dashboard/paste.svg") no-repeat scroll center center rgba(0, 0, 0, 0);
+        cursor: pointer;
+        display: block;
+        height: 24px;
+        right: -33px;
+        top: 53px;
+        width: 24px;
+    }
+    .d-d-itm-down {
+        background: url("/NanoClientApplication/images/dashboard/paste.svg") no-repeat scroll center center rgba(0, 0, 0, 0);
+        cursor: pointer;
+        display: block;
+        height: 24px;
+        right: -50px;
+        top: -11px;
+        width: 24px;
+    }
+    .layoutDrag {
+        border: 2px dotted gray;
+    }
+    #headerTable {
+        overflow-x: hidden;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+        overflow-y: scroll;
+    }
+    .analyticDiv .hide-scroll {
+        width: 16px;
+        height: 16%;
+        background: #f1f1f1;
+        position: absolute;
+        right: 0;
+        z-index: 9;
+        display: none;
+    }
+    .analyticDiv .hide-scroll-cross {
+        width: 16px;
+        height: 9%;
+        background: #f1f1f1;
+        position: absolute;
+        right: 0;
+        z-index: 9;
+        display: none;
+    }
+    #headerTable .crossTable {
+        width: 100% !important;
+    }
+    #headerTable table.simpleTable {
+        width: 100% !important;
+    }
+    #baseTable {
+        overflow: auto;
+        position: relative;
+        width: 100%;
+        z-index: 2;
+        height: 88% !important;
+    }
+    #filtName {
+        background: #fff none repeat scroll 0 0;
+        float: right;
+        height: 32px;
+        left: 18px;
+        margin: 5px;
+        position: absolute;
+        width: 170px;
+    }
+    #defFilt {
+        height: 30px;
+        left: 175px;
+        position: absolute;
+        top: 4px;
+        width: 30px;
+    }
+    /* sparkline css */
+    .brick1 .sparklineWrap,
+    .brick2 .sparklineWrap {
+        height: 50px;
+        overflow: auto;
+        position: absolute;
+        top: 40px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .brick3 .sparklineWrap {
+        height: 100px;
+        overflow: auto;
+        position: absolute;
+        top: 56px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /* ...calender css...  */
+    .activeCalender {
+        cursor: none;
+        background-color: #335885;
+        opacity: 0.5;
+        pointer-events: none;
+        padding: 2px;
+        color: white;
+    }
+
+    .analyticDiv span svg + div {
+    right: 21.5px !important;
+    color: #000;
+    }
+    .relative.analyticWrapper {
+        overflow: hidden;
+    }
+
+.brickChart.whiteB.analyticDiv.fullScreen {
+    position: fixed !important;
+}
+
+    .analyticDiv #baseTable table.simpleTable {
+        width: 100% !important;
+    }
+
